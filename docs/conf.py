@@ -20,7 +20,7 @@ html_theme_options = dict(
 )
 
 html_theme_options = dict(
-    github_url = "https://github.com/Haiko-Nuding/HF-Sphinx-Documentation"
+    github_url = "https://github.com/Haiko-Nuding/HF-Sphinx-Documentation/"
 )
 
 # -- General configuration ---------------------------------------------------
