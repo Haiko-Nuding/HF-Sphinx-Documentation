@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sphinx build directories
+_build/
+build/
+dist/
+
+# Sphinx doctrees
+*.doctree
+*.doctrees
+
+# PyBuilder
+target/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage / test reports
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
