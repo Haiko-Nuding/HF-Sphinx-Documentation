@@ -27,10 +27,11 @@ html_theme_options = dict(
     logo_alt="Wagtail",
     logo_height=69,
     logo_width=69,
-    logo_url="/",
+    logo_url="./",  # <- relative path fixes GitHub Pages links
     github_url="https://github.com/Haiko-Nuding/HF-Sphinx-Documentation/blob/main/docs/"
 )
 
+# Base URL for references
 html_baseurl = "https://Haiko-Nuding.github.io/HF-Sphinx-Documentation/"
 
 

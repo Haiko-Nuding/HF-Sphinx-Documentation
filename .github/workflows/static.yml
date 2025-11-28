@@ -1,5 +1,4 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Deploy Sphinx site to GitHub Pages
 
 on:
   push:
@@ -21,19 +20,40 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      # Checkout the repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
+      # Setup Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      # Install dependencies
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # Build Sphinx site
+      - name: Build Sphinx HTML
+        run: |
+          sphinx-build -b html docs build-prod
+
+      # Configure GitHub Pages
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      # Upload the built site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload only the build-prod folder
           path: 'build-prod'
 
+      # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
