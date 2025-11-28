@@ -31,6 +31,9 @@ html_theme_options = dict(
     github_url="https://github.com/Haiko-Nuding/HF-Sphinx-Documentation/blob/main/docs/"
 )
 
+html_baseurl = "https://Haiko-Nuding.github.io/HF-Sphinx-Documentation/"
+
+
 # Add static paths and custom CSS
 html_static_path = ['_static']
 html_css_files = ['css/custom.css']
