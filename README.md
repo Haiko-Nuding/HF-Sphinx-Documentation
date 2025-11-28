@@ -1,50 +1,78 @@
-```mermaid
-graph LR
-    subgraph Client-Machine (LMU-Maschine)
-        direction TB
-        C_NODE[Node Exporter]
-        C_FEAT[Filebeat]
-    end
+# HF-Sphinx-Documentation
 
-    subgraph Monitoring-Server (Kali-Maschine / Docker Compose)
-        subgraph Logging-Stack (ELK)
-            FEAT[Filebeat (lokal)]
-            LS[Logstash]
-            ES[Elasticsearch]
-            KB[Kibana]
-        end
-        
-        subgraph Metrik-Stack
-            PROM[Prometheus]
-            GF[Grafana]
-            AM[Alertmanager]
-        end
-        
-        subgraph Kommunikation
-            MM[Mattermost]
-        end
-        
-        direction LR
-        LS --> ES
-        
-        direction TB
-        subgraph Visualisierung
-            KB
-            GF
-        end
-        
-        GF --> AM
-        AM -- Webhook --> MM
-    end
-    
-    PROM -- HTTP Scrape --> C_NODE
-    C_FEAT -- Log Push --> LS
-    FEAT --> LS
-    PROM -- Scrape --> FEAT
-    ES -- Data --> KB
-    PROM -- Data --> GF
-    ES -- Data --> GF
-    
-    style Client-Machine fill:#f0e68c,stroke:#333,stroke-width:2px
-    style Monitoring-Server fill:#add8e6,stroke:#333,stroke-width:2px
+![Sphinx](https://img.shields.io/badge/Made%20with-Sphinx-1f425f.svg)
+![Python](https://img.shields.io/badge/python-3.8%7C3.9-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+This project uses **Sphinx** with the **Wagtail theme** and customizations to generate HTML documentation.
+
+---
+
+## Project Structure
+
 ```
+docs/
+├── .venv/        # Python virtual environment (after setup)
+├── build/        # Sphinx documentation build directory
+├── conf.py       # Sphinx configuration file
+├── index.rst     # Root document
+├── _build/       # Build output (ignored in version control)
+├── _static/      # Custom static files (CSS, JS, images)
+└── _templates/   # Custom templates for theming
+```
+
+---
+
+## Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/Haiko-Nuding/HF-Sphinx-Documentation.git
+cd HF-Sphinx-Documentation
+```
+
+2. **(Optional) Create and activate a virtual environment:**
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. **Install dependencies:**
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Building the Documentation
+
+You can generate the documentation in several ways:
+
+### 1. Using the Make script (Windows)
+
+```powershell
+.\make.bat html
+```
+
+This will generate HTML documentation in the `build/html` folder.
+
+### 2. Using Sphinx directly
+
+If you have Sphinx installed separately:
+
+```bash
+sphinx-build -b html docs/ build/html
+```
+
+### 3. Viewing the documentation
+
+After building, open:
+
+```
+build/html/index.html
+```
+
+in your browser to view the documentation.
