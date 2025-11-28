@@ -66,3 +66,11 @@ body.theme-dark .page-toc a {
 body.theme-dark .page-toc a:hover {
     color: #3beccd !important;
 }
+
+
+@media (max-width: 500px) {
+  .btn {
+    margin-top: .3rem !important;
+  }
+}
+
