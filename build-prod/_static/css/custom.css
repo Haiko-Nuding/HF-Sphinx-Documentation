@@ -1,0 +1,68 @@
+/* ============================= */
+/* Backgrounds */
+/* ============================= */
+.bg-primary {
+    background-color: #0E1A2B !important;
+}
+
+body.theme-dark {
+    background-color: #0F1724 !important;
+}
+
+/* ============================= */
+/* Borders & Dividers */
+/* ============================= */
+body.theme-dark hr,
+body.theme-dark .border,
+body.theme-dark .with-border,
+body.theme-dark .border-top,
+body.theme-dark .border-right,
+body.theme-dark .border-bottom,
+body.theme-dark .border-left,
+body.theme-dark .sidebar-container,
+body.theme-dark .search li {
+    border-color: #E6EEF8 !important;
+}
+
+/* ============================= */
+/* Forms & Inputs */
+/* ============================= */
+body.theme-dark .form-control {
+    background-color: #A9B6C8;
+    border-color: #E6EEF8;
+}
+
+body.theme-dark .form-control.py-3.pr-3.pl-1.h-100.border-left-0::placeholder {
+    color: #0E1A2B !important;
+}
+
+body.theme-dark .input-group-text {
+    background-color: #A9B6C8;
+    border-color: #E6EEF8;
+    color: #0E1A2B !important;
+}
+
+body.theme-dark .input-group-text.bg-white {
+    background-color: #A9B6C8 !important;
+    color: #0E1A2B !important;
+}
+
+/* ============================= */
+/* Buttons */
+/* ============================= */
+body.theme-dark .btn-light {
+    background-color: #A9B6C8;
+    border-color: #E6EEF8;
+    color: #0E1A2B !important;
+}
+
+/* ============================= */
+/* Page Table of Contents Links */
+/* ============================= */
+body.theme-dark .page-toc a {
+    color: #E6EEF8 !important;
+}
+
+body.theme-dark .page-toc a:hover {
+    color: #3beccd !important;
+}
