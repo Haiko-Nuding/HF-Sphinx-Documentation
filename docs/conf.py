@@ -42,5 +42,9 @@ html_css_files = ['css/custom.css']
 # Set favicon
 html_favicon = '_static/img/tofu_logo_color.svg'
 
+# top-level index file
+master_doc = 'index'
+
+
 # Display last updated timestamp
 html_last_updated_fmt = "%b %d, %Y"

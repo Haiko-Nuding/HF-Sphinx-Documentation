@@ -16,29 +16,25 @@
   --glass: rgba(255,255,255,0.04);
   --radius: 10px;
   --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Segoe UI Mono", monospace;
-
-  /* ⭐ NEW COLOR */
   --text-decoration-color: #3beccd;
 }
 
 /* Main wrapper */
 .wagtail-phi-theme .wrap {
-  height: 100%;
-  margin: 0;
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-  color: var(--text);
+  width: 95%;
   max-width: 1100px;
   margin: 36px auto;
   padding: 28px;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  color: var(--text);
   background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.02));
   border-radius: 16px;
-
 }
 
 /* Palette grid */
 .wagtail-phi-theme .palette {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 14px;
   margin-top: 22px;
 }
@@ -67,7 +63,7 @@
 /* Cards + components */
 .wagtail-phi-theme .samples {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 18px;
   margin-top: 28px;
 }
@@ -119,6 +115,7 @@
   border: 1px solid rgba(255,255,255,0.03);
   color: var(--text);
   min-width: 200px;
+  flex: 1;
 }
 
 /* Meta pills */
@@ -127,6 +124,7 @@
   gap: 12px;
   align-items: center;
   margin-top: 12px;
+  flex-wrap: wrap;
 }
 
 .wagtail-phi-theme .pill {
@@ -153,10 +151,15 @@
   font-size: 13px;
 }
 
-/* Responsive */
-@media (max-width: 900px) {
-  .wagtail-phi-theme .palette { grid-template-columns: repeat(3, 1fr); }
-  .wagtail-phi-theme .samples { grid-template-columns: 1fr; }
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .wagtail-phi-theme .wrap {
+    padding: 16px;
+    margin: 20px auto;
+  }
+  .wagtail-phi-theme .input {
+    min-width: 100%;
+  }
 }
 </style>
 
