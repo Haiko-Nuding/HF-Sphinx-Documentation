@@ -1,0 +1,189 @@
+<style>
+.wagtail-phi-theme {
+  --primary: #1F6FEB;
+  --primary-600: #155ecf;
+  --accent: #FF6B6B;
+  --accent-600: #e45555;
+  --muted: #6B7280;
+  --bg: #0F1724;
+  --surface: #0B1220;
+  --card: #0E1A2B;
+  --text: #E6EEF8;
+  --text-muted: #A9B6C8;
+  --success: #26C281;
+  --warning: #FFC16A;
+  --danger: #FF6B6B;
+  --glass: rgba(255,255,255,0.04);
+  --radius: 10px;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Segoe UI Mono", monospace;
+
+  /* ⭐ NEW COLOR */
+  --text-decoration-color: #3beccd;
+}
+
+/* Main wrapper */
+.wagtail-phi-theme .wrap {
+  height: 100%;
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  color: var(--text);
+  max-width: 1100px;
+  margin: 36px auto;
+  padding: 28px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.02));
+  border-radius: 16px;
+
+}
+
+/* Palette grid */
+.wagtail-phi-theme .palette {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 14px;
+  margin-top: 22px;
+}
+
+.wagtail-phi-theme .swatch {
+  border-radius: 12px;
+  padding: 12px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 1px solid rgba(255,255,255,0.03);
+}
+
+.wagtail-phi-theme .swatch small {
+  display: block;
+  color: white;
+  font-family: var(--mono);
+  font-size: 12px;
+}
+
+.wagtail-phi-theme .swatch .name {
+  font-weight: 600;
+}
+
+/* Cards + components */
+.wagtail-phi-theme .samples {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-top: 28px;
+}
+
+.wagtail-phi-theme .card {
+  background: var(--card);
+  padding: 18px;
+  border-radius: 12px;
+}
+
+/* Buttons */
+.wagtail-phi-theme .btn {
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.wagtail-phi-theme .btn.primary {
+  background: linear-gradient(180deg, var(--primary), var(--primary-600));
+  color: white;
+}
+
+.wagtail-phi-theme .btn.ghost {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.06);
+  color: var(--text);
+}
+
+.wagtail-phi-theme .muted {
+  color: var(--text-muted);
+}
+
+/* Inputs */
+.wagtail-phi-theme .component-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.wagtail-phi-theme .input {
+  background: var(--surface);
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid rgba(255,255,255,0.03);
+  color: var(--text);
+  min-width: 200px;
+}
+
+/* Meta pills */
+.wagtail-phi-theme .meta {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.wagtail-phi-theme .pill {
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: var(--glass);
+  border: 1px solid rgba(255,255,255,0.03);
+  font-size: 13px;
+}
+
+/* Code blocks */
+.wagtail-phi-theme pre {
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.02));
+  padding: 12px;
+  border-radius: 8px;
+  overflow: auto;
+  color: var(--text-muted);
+}
+
+/* Footer scoped */
+.wagtail-phi-theme footer {
+  margin-top: 18px;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .wagtail-phi-theme .palette { grid-template-columns: repeat(3, 1fr); }
+  .wagtail-phi-theme .samples { grid-template-columns: 1fr; }
+}
+</style>
+
+<div class="wagtail-phi-theme">
+  <div class="wrap" style="background: linear-gradient(180deg,var(--bg), #071021 120%);">
+
+    <header>
+      <div>
+        <p class="muted">A modern, accessible palette built for a dark admin UI.</p>
+      </div>
+    </header>
+
+    <section class="palette" aria-label="color palette">
+      <div class="swatch" style="background:var(--primary);color:white"><div class="name">Primary</div><small>#1F6FEB</small></div>
+      <div class="swatch" style="background:var(--primary-600);color:white"><div class="name">Primary 600</div><small>#155ecf</small></div>
+      <div class="swatch" style="background:var(--accent);color:rgba(0,0,0,0.85)"><div class="name">Accent</div><small>#FF6B6B</small></div>
+      <div class="swatch" style="background:var(--accent-600);color:white"><div class="name">Accent 600</div><small>#e45555</small></div>
+      <div class="swatch" style="background:var(--muted);color:white"><div class="name">Muted</div><small>#6B7280</small></div>
+      <div class="swatch" style="background:var(--bg);color:var(--text)"><div class="name">Background</div><small>#0F1724</small></div>
+
+      <div class="swatch" style="background:var(--surface);color:var(--text)"><div class="name">Surface</div><small>#0B1220</small></div>
+      <div class="swatch" style="background:var(--card);color:var(--text)"><div class="name">Card</div><small>#0E1A2B</small></div>
+      <div class="swatch" style="background:var(--text);color:black"><div class="name">Text</div><small style="color:black">#E6EEF8</small></div>
+      <div class="swatch" style="background:var(--text-muted);color:black"><div class="name">Text Muted</div><small>#A9B6C8</small></div>
+      <div class="swatch" style="background:var(--success);color:white"><div class="name">Success</div><small>#26C281</small></div>
+      <div class="swatch" style="background:var(--warning);color:white"><div class="name">Warning</div><small>#FFC16A</small></div>
+      <div class="swatch" style="background:var(--text-decoration-color);color:white"><div class="name">Text Decoration</div><small>#3beccd</small></div>
+    </section>
+  </div>
+</div>
