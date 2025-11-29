@@ -28,7 +28,11 @@ html_theme_options = dict(
     logo_height=69,
     logo_width=69,
     logo_url="./",  # <- relative path fixes GitHub Pages links
-    github_url="https://github.com/Haiko-Nuding/HF-Sphinx-Documentation/blob/main/docs/"
+    github_url="https://github.com/Haiko-Nuding/HF-Sphinx-Documentation/blob/main/docs/",
+    footer_links = ",".join([
+        "Contact|https://haiko-nuding.github.io/HF-Sphinx-Documentation/contact.html",
+        "Credits|https://haiko-nuding.github.io/HF-Sphinx-Documentation/credits.html",
+    ]),
 )
 
 # Base URL for references

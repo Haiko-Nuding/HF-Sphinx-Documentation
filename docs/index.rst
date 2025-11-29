@@ -17,6 +17,13 @@ that make up this documentation set.
    NB/index
    OOP/index
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
+   credits
+   contact
+
 
 Tofu Sphinx — Color Palette
 ===========================
