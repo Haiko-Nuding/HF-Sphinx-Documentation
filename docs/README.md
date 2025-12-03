@@ -1,4 +1,4 @@
-# HF-Sphinx-Documentation
+# HF-Sphinx-Documentation2
 
 [![CI](https://github.com/Haiko-Nuding/HF-Sphinx-Documentation/actions/workflows/static.yml/badge.svg)](https://github.com/Haiko-Nuding/HF-Sphinx-Documentation/actions/workflows/static.yml)
 ![Sphinx](https://img.shields.io/badge/Made%20with-Sphinx-1f425f.svg)
@@ -37,6 +37,11 @@ This project uses **Sphinx** with the **Wagtail theme** and customizations to ge
 ---
 
 ## Installation
+
+
+```{important}
+You will need to install Java for plantUML Support.
+```
 
 1. **Clone the repository:**
 
