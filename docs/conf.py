@@ -11,10 +11,30 @@ copyright = '2025, Haiko Nuding'
 
 extensions = [
     'sphinx_wagtail_theme',
+    'myst_parser',  # <--- ADDED: For Markdown support
 ]
 
 templates_path = ['_templates']
 exclude_patterns = []
+
+# Configure MyST Parser
+# Allows you to use features like definition lists, code fences with :::, and more in Markdown
+myst_enable_extensions = [
+    "html_image",
+    "deflist",
+    "linkify",
+    "colon_fence",
+]
+
+# Allows Sphinx to read both .rst and .md files as source files
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown', # <--- ADDED: To treat .md files as source documents
+}
+
+
+# top-level index file
+master_doc = 'index'
 
 # -- HTML output options -----------------------------------------------------
 
@@ -30,6 +50,7 @@ html_theme_options = dict(
     logo_url="./",  # <- relative path fixes GitHub Pages links
     github_url="https://github.com/Haiko-Nuding/HF-Sphinx-Documentation/blob/main/docs/",
     footer_links = ",".join([
+        "README|https://haiko-nuding.github.io/HF-Sphinx-Documentation/README.html",
         "Contact|https://haiko-nuding.github.io/HF-Sphinx-Documentation/contact.html",
         "Credits|https://haiko-nuding.github.io/HF-Sphinx-Documentation/credits.html",
     ]),
@@ -45,9 +66,6 @@ html_css_files = ['css/custom.css']
 
 # Set favicon
 html_favicon = '_static/img/tofu_logo_color.svg'
-
-# top-level index file
-master_doc = 'index'
 
 
 # Display last updated timestamp

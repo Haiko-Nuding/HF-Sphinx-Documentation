@@ -13,7 +13,7 @@ Email: `cho.carolinae@gmail.com <mailto:cho.carolinae@gmail.com>`_
 You can reach her for inquiries related to the logo or creative contributions.
 
 Project Maintainer
------------------
+------------------
 
 **Haiko Nuding**
 Email: `haikonudingmorales@yahoo.com <mailto:haikonudingmorales@yahoo.com>`_

@@ -21,6 +21,7 @@ that make up this documentation set.
    :maxdepth: 2
    :hidden:
 
+   README.md
    credits
    contact
 
