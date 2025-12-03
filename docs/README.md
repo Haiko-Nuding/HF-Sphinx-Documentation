@@ -1,7 +1,9 @@
 # HF-Sphinx-Documentation
 
+[![CI](https://github.com/Haiko-Nuding/HF-Sphinx-Documentation/actions/workflows/static.yml/badge.svg)](https://github.com/Haiko-Nuding/HF-Sphinx-Documentation/actions/workflows/static.yml)
 ![Sphinx](https://img.shields.io/badge/Made%20with-Sphinx-1f425f.svg)
-![Python](https://img.shields.io/badge/python-3.8%7C3.9-blue)
+[![Theme: Wagtail](https://img.shields.io/badge/Theme-Wagtail-43b1b0)](https://wagtail.org/)
+![Python](https://img.shields.io/badge/python-3.8%2B-blue?logo=python&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 This project uses **Sphinx** with the **Wagtail theme** and customizations to generate HTML documentation.
@@ -11,14 +13,25 @@ This project uses **Sphinx** with the **Wagtail theme** and customizations to ge
 ## Project Structure
 
 ```
-docs/
-├── .venv/        # Python virtual environment (after setup)
-├── build/        # Sphinx documentation build directory
-├── conf.py       # Sphinx configuration file
-├── index.rst     # Root document
-├── _build/       # Build output (ignored in version control)
-├── _static/      # Custom static files (CSS, JS, images)
-└── _templates/   # Custom templates for theming
+.
+├── .github/                         # GitHub configuration
+│   └── workflows/                   # GitHub Actions workflows (CI/CD)
+│       └── static.yml               # Builds & deploys Sphinx docs to GitHub Pages
+│
+├── docs/                            # Main Sphinx documentation project
+│   ├── README.md                    # Project README (shown on GitHub inside /docs)
+│   ├── conf.py                      # Sphinx configuration file
+│   ├── index.rst                    # Main documentation entry point (homepage)
+│   ├── _static/                     # Custom static files (CSS, images, JS)
+│   ├── _templates/                  # Custom HTML templates for Sphinx
+│   └── _build/                      # Auto-generated HTML output (should be gitignored)
+│
+├── .venv/                           # Local Python virtual environment (gitignored)
+│
+├── requirements.txt                # Python dependencies for building the docs
+│
+└── .gitignore                       # Files & folders excluded from git tracking
+
 ```
 
 ---
@@ -35,8 +48,8 @@ cd HF-Sphinx-Documentation
 2. **(Optional) Create and activate a virtual environment:**
 
 ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\Activate.ps1 
 ```
 
 3. **Install dependencies:**
