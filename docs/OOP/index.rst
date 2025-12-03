@@ -11,3 +11,4 @@ encapsulation, and abstraction, along with practical examples.
    :caption: Topics
 
    module_overview
+   uml_notes

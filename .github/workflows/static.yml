@@ -32,13 +32,17 @@ jobs:
         with:
           python-version: "3.x"
 
-      # Install dependencies
+      # Install Java (required for PlantUML)
+      - name: Install Java
+        run: sudo apt-get update && sudo apt-get install -y default-jre
+
+      # Install Python dependencies
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # Build Sphinx site
+      # Build Sphinx site with PlantUML
       - name: Build Sphinx HTML
         run: |
           sphinx-build -b html docs build-prod
