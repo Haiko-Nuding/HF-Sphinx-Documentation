@@ -1,4 +1,4 @@
-# HF-Sphinx-Documentation2
+# HF-Sphinx-Documentation
 
 [![CI](https://github.com/Haiko-Nuding/HF-Sphinx-Documentation/actions/workflows/static.yml/badge.svg)](https://github.com/Haiko-Nuding/HF-Sphinx-Documentation/actions/workflows/static.yml)
 ![Sphinx](https://img.shields.io/badge/Made%20with-Sphinx-1f425f.svg)
