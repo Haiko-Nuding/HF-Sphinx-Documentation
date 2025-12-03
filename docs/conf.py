@@ -2,6 +2,7 @@
 # Full documentation: https://www.sphinx-doc.org/en/master/usage/configuration.html
 
 import os
+import subprocess
 
 # -- Project information -----------------------------------------------------
 
@@ -72,7 +73,32 @@ html_last_updated_fmt = "%b %d, %Y"
 
 # -- PlantUML configuration --------------------------------------------------
 
-# Build a portable path to the PlantUML JAR (works on Windows and Linux)
-docs_path = os.path.dirname(__file__)
+# Absolute path to the docs folder
+docs_path = os.path.dirname(os.path.abspath(__file__))
+
+# Path to the PlantUML JAR inside your repo
 plantuml_jar = os.path.join(docs_path, "third_party", "plantuml-1.2025.10.jar")
-plantuml = f"java -jar {plantuml_jar}"
+
+# Check if the PlantUML JAR exists
+if not os.path.isfile(plantuml_jar):
+    raise FileNotFoundError(f"PlantUML JAR not found at {plantuml_jar}. Make sure it is checked into the repo.")
+
+# Verify Java is available
+try:
+    subprocess.run(["java", "-version"], check=True, capture_output=True)
+except Exception as e:
+    raise RuntimeError("Java is not available in PATH. Please install Java.") from e
+
+# Optional: Check for Graphviz (dot) if your diagrams need it
+dot_path = None
+try:
+    result = subprocess.run(["dot", "-V"], capture_output=True, text=True)
+    dot_path = "dot found"
+except FileNotFoundError:
+    dot_path = None
+
+if dot_path is None:
+    print("Warning: Graphviz 'dot' executable not found. Some PlantUML diagrams may fail.")
+
+# Command Sphinx will use to call PlantUML
+plantuml = f'java -jar "{plantuml_jar}"'
