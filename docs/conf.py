@@ -16,6 +16,7 @@ extensions = [
     'sphinx_wagtail_theme',
     'myst_parser',  # For Markdown support
     'sphinxcontrib.plantuml',  # PlantUML integration
+    'sphinxcontrib.spelling'
 ]
 
 templates_path = ['_templates']
@@ -102,3 +103,7 @@ if dot_path is None:
 
 # Command Sphinx will use to call PlantUML
 plantuml = f'java -jar "{plantuml_jar}"'
+
+spelling_lang = "en_US"   # language
+# Optional: Custom word list
+spelling_word_list_filename = ["spelling_wordlist.txt"]
