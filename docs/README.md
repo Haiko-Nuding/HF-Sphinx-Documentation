@@ -94,3 +94,13 @@ build/html/index.html
 ```
 
 in your browser to view the documentation.
+
+
+## Running the Spelling Check
+
+This project uses `sphinxcontrib-spelling` to check for typos in the documentation. You can run it in the following ways:
+
+### 1. Using the Make script (Windows)
+
+```powershell
+.\make.bat spelling
