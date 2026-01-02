@@ -8,11 +8,3 @@ foundational principles needed to understand modern network communication.
 .. hint::
 
     More Content coming soon.....
-
-
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Topics
-
-   file1
