@@ -16,7 +16,8 @@ extensions = [
     'sphinx_wagtail_theme',
     'myst_parser',  # For Markdown support
     'sphinxcontrib.plantuml',  # PlantUML integration
-    'sphinxcontrib.spelling'
+    'sphinxcontrib.spelling',
+    'rst2pdf.pdfbuilder',
 ]
 
 templates_path = ['_templates']
@@ -107,3 +108,6 @@ plantuml = f'java -jar "{plantuml_jar}"'
 spelling_lang = "en_US"   # language
 # Optional: Custom word list
 spelling_word_list_filename = ["spelling_wordlist.txt"]
+
+# generate PDF:
+#  rst2pdf .\docs\SA\tofubox_project.rst -s tango,kerning -o tofu_box.pdf
