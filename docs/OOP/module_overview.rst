@@ -26,3 +26,6 @@ Module / Tasks Overview
 |        | Enums                          | `Exercise 16 <https://github.com/Haiko-Nuding/OOP-Sem-2/tree/main/Aufgabe-16>`_,     |
 |        |                                | `Exercise 17 <https://github.com/Haiko-Nuding/OOP-Sem-2/tree/main/Aufgabe-17>`_,     |
 +--------+--------------------------------+--------------------------------------------------------------------------------------+
+| AB05   | Polymorphie, Keywords,         | `Exercise 18 <https://github.com/Haiko-Nuding/OOP-Sem-2/tree/main/Aufgabe-18>`_,     |
+|        | Sichtbarkeit,                  | `Exercise 19 <https://github.com/Haiko-Nuding/OOP-Sem-2/tree/main/Aufgabe-19>`_,     |
++--------+--------------------------------+--------------------------------------------------------------------------------------+
