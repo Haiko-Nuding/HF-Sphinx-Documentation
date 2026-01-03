@@ -19,4 +19,10 @@ Module / Tasks Overview
 +--------+--------------------------------+--------------------------------------------------------------------------------------+
 | AB03   | Methods, Parameters,           | `Exercise 11 <https://github.com/Haiko-Nuding/OOP-Sem-2/tree/main/Aufgabe-11>`_,     |
 |        | Encapsulation                  | `Exercise 12 <https://github.com/Haiko-Nuding/OOP-Sem-2/tree/main/Aufgabe-12>`_,     |
+|        |                                | `Exercise 13 <https://github.com/Haiko-Nuding/OOP-Sem-2/tree/main/Aufgabe-13>`_,     |
++--------+--------------------------------+--------------------------------------------------------------------------------------+
+| AB04   | Static vs. Non-static,         | `Exercise 14 <https://github.com/Haiko-Nuding/OOP-Sem-2/tree/main/Aufgabe-14>`_,     |
+|        | Kommandozeilenparameter,       | `Exercise 15 <https://github.com/Haiko-Nuding/OOP-Sem-2/tree/main/Aufgabe-15>`_,     |
+|        | Enums                          | `Exercise 16 <https://github.com/Haiko-Nuding/OOP-Sem-2/tree/main/Aufgabe-16>`_,     |
+|        |                                | `Exercise 17 <https://github.com/Haiko-Nuding/OOP-Sem-2/tree/main/Aufgabe-17>`_,     |
 +--------+--------------------------------+--------------------------------------------------------------------------------------+
