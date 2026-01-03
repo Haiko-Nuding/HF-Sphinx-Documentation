@@ -1,5 +1,5 @@
-UML Notes & Examples (Car System)
-=================================
+UML Notes & Examples
+====================
 
 This file demonstrates **Composition** and **Aggregation** in UML, with corresponding C# code examples.
 
