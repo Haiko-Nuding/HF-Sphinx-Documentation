@@ -1,6 +1,9 @@
-==========================================
-TofuBox - Technische Dokumentation
-==========================================
+.. |logo| image:: ../_static/img/TofuBox_out.png
+            :width: 40
+            :alt: TofuBox Logo
+
+|logo| TofuBox - Technische Dokumentation
+=========================================================
 
 .. meta::
    :description: Technische Dokumentation für das TofuBox HomeLab Projekt

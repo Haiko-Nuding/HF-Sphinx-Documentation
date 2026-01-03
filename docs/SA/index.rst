@@ -4,7 +4,7 @@ System Administration
 This section covers fundamental concepts and practices for managing systems, users, and permissions.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Topics
 
    docker
