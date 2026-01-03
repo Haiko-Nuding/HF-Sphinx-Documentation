@@ -12,3 +12,5 @@ encapsulation, and abstraction, along with practical examples.
 
    module_overview
    uml_notes
+   aufgabe_05_uml
+   aufgabe_08_uml
