@@ -29,12 +29,6 @@
 
    PageBreak
 
-.. only:: latex
-
-    .. contents:: Inhaltsverzeichnis
-       :depth: 3
-
-
 .. raw:: pdf
 
    PageBreak
