@@ -25,6 +25,8 @@
 
     :download:`Download TofuBox - Technische Dokumentation <../_static/pdf/tofu_box_technische_documentation.pdf>`
 
+    :download:`Download TofuBox Logo <../_static/img/resized_16x9_image_TofuBox_out.png>`
+
 .. raw:: pdf
 
    PageBreak
