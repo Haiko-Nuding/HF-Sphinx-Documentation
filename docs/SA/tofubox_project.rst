@@ -14,11 +14,6 @@
 :Status: Abgeschlossen
 :Datum: 05.01.2025
 
-.. image:: ../_static/img/tofubox/tofubox-web-qrcode.png
-   :alt: TofuBox-Web-Doc
-   :align: center
-   :width: 50%
-
 .. only:: html
 
     :download:`Download TofuBox - Technische Dokumentation <../_static/pdf/tofu_box_technische_documentation.pdf>`
