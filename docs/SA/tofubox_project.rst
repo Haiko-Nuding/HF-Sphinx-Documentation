@@ -65,7 +65,9 @@ Die folgenden Dateien sind entscheidend für die Funktionalität des Systems:
 3. **media/.env**:
    Enthält die VPN-Zugangsdaten. Da der gesamte Media-Traffic über den VPN-Container (Gluetun) geroutet wird, ist diese Datei essenziell für Sicherheit und Anonymität.
 
----
+.. raw:: pdf
+
+   PageBreak
 
 Anleitung: Media-Stack Setup
 =============================
@@ -107,7 +109,7 @@ Stellen Sie sicher, dass Docker und das Docker-Compose Plugin auf dem Host-Syste
    # Überprüfung des Dienst-Status
    sudo systemctl status docker
 
-2. Repository-Download
+3. Repository-Download
 -----------------------
 Klonen Sie das Projekt-Repository auf Ihren lokalen Server:
 
@@ -115,7 +117,7 @@ Klonen Sie das Projekt-Repository auf Ihren lokalen Server:
 
    git clone git@github.com:lorisleuenberger/homelab.git
 
-3. Verzeichnis wechseln & Umgebungsvariablen erstellen
+4. Verzeichnis wechseln & Umgebungsvariablen erstellen
 -------------------------------------------------------
 Navigieren Sie in den Media-Ordner, kopieren Sie das Template und erstellen Sie die produktive Konfigurationsdatei:
 
@@ -124,7 +126,7 @@ Navigieren Sie in den Media-Ordner, kopieren Sie das Template und erstellen Sie 
    cd homelab/media/
    cp .env.example .env
 
-4. Konfiguration der .env Datei
+5. Konfiguration der .env Datei
 --------------------------------
 Öffnen Sie die Datei ``.env`` und tragen Sie Ihre Daten ein.
 
@@ -138,7 +140,7 @@ Navigieren Sie in den Media-Ordner, kopieren Sie das Template und erstellen Sie 
    * Fügen Sie am Ende des **OPENVPN_USER** zwingend das Suffix ``+pmp`` hinzu, um das Port-Forwarding zu ermöglichen.
    * Nutzen Sie als **MEDIA_FOLDER** den Pfad ``/srv/media``.
 
-5. Erstellung der Speicherstruktur & Rechte
+6. Erstellung der Speicherstruktur & Rechte
 -------------------------------------------
 Erstellen Sie das Basisverzeichnis inklusive der notwendigen Unterstrukturen für Downloads, Filme und Serien und setzen Sie die Berechtigungen rekursiv:
 
@@ -151,7 +153,7 @@ Erstellen Sie das Basisverzeichnis inklusive der notwendigen Unterstrukturen fü
    sudo chown -R $USER:$USER /srv/media
    sudo chmod -R 775 /srv/media
 
-6. Deployment des Media-Stacks
+7. Deployment des Media-Stacks
 -------------------------------
 Starten Sie die Container-Infrastruktur im Hintergrund:
 
@@ -160,7 +162,7 @@ Starten Sie die Container-Infrastruktur im Hintergrund:
    cd homelab/media
    sudo docker-compose up -d
 
-7. Verifizierung der VPN-Verbindung
+8. Verifizierung der VPN-Verbindung
 ------------------------------------
 Überprüfen Sie die Logs des **Gluetun**-Containers. Dieser dient als Gateway für alle anderen Dienste.
 
@@ -168,22 +170,34 @@ Starten Sie die Container-Infrastruktur im Hintergrund:
 
    sudo docker-compose logs -f gluetun
 
-8. Übersicht der Media-Container
+9. Übersicht der Media-Container
 ---------------------------------
 
-+---------------+---------------+-----------------------------+-------------------------------------------------------------+
-| Service       | Standard-Port | Zugriff (Browser/LAN)       | Funktion / Beschreibung                                     |
-+===============+===============+=============================+=============================================================+
-| Jellyfin      | 8096          | http://192.168.110.60:8096  | Medienserver: Filme, Serien, Musik streamen.                |
-+---------------+---------------+-----------------------------+-------------------------------------------------------------+
-| Sonarr        | 8989          | http://192.168.110.60:8989  | Serienverwaltung & Automatisierung.                         |
-+---------------+---------------+-----------------------------+-------------------------------------------------------------+
-| Radarr        | 7878          | http://192.168.110.60:7878  | Filmverwaltung & Automatisierung.                           |
-+---------------+---------------+-----------------------------+-------------------------------------------------------------+
-| qBittorrent   | 8080          | http://192.168.110.60:8080  | Torrent-Client (VPN-geschützt).                             |
-+---------------+---------------+-----------------------------+-------------------------------------------------------------+
++---------------+---------------+------------------------------------+-------------------------------------------------------------+
+| Service       | Standard-Port | Zugriff (Browser/LAN)              | Funktion / Beschreibung                                     |
++===============+===============+====================================+=============================================================+
+| Jellyfin      | 8096          | http://192.168.110.60:8096         | Medienserver: Filme, Serien, Musik streamen.                |
++---------------+---------------+------------------------------------+-------------------------------------------------------------+
+| Sonarr        | 8989          | http://192.168.110.60:8989         | Serienverwaltung: Automatisches Herunterladen, Umbenennen   |
+|               |               |                                    | und Sortieren von TV-Serien.                                |
++---------------+---------------+------------------------------------+-------------------------------------------------------------+
+| Radarr        | 7878          | http://192.168.110.60:7878         | Filmverwaltung: Automatisches Herunterladen, Umbenennen     |
+|               |               |                                    | und Sortieren von Filmen.                                   |
++---------------+---------------+------------------------------------+-------------------------------------------------------------+
+| Bazarr        | 6767          | http://192.168.110.60:6767         | Untertitelverwaltung: Lädt Untertitel für Serien & Filme    |
+|               |               |                                    | automatisch herunter und verknüpft sie mit Sonarr/Radarr.   |
++---------------+---------------+------------------------------------+-------------------------------------------------------------+
+| Prowlarr      | 9696          | http://192.168.110.60:9696         | Indexer-Manager: Verbindet Torrent/Usenet-Indexer mit       |
+|               |               |                                    | Sonarr, Radarr, Lidarr, etc.                                |
++---------------+---------------+------------------------------------+-------------------------------------------------------------+
+| qBittorrent   | 8080          | http://192.168.110.60:8080         | Torrent-Client: Lädt Torrents herunter, kann automatisiert  |
+|               |               |                                    | von Sonarr/Radarr gesteuert werden.                         |
++---------------+---------------+------------------------------------+-------------------------------------------------------------+
+| Gluetun       | Läuft im Hintergrund                               | VPN-Client + Firewall: Leitet Traffic der anderen Container |
+|               |                                                    | über VPN, schützt IP und ermöglicht Port-Forwarding.        |
++---------------+---------------+------------------------------------+-------------------------------------------------------------+
 
-9. qBittorrent WebUI Konfiguration
+10. qBittorrent WebUI Konfiguration
 -----------------------------------
 Um Zugriff auf die Benutzeroberfläche zu erhalten, muss zunächst das automatisch generierte Passwort ausgelesen werden:
 
@@ -206,7 +220,11 @@ Um Zugriff auf die Benutzeroberfläche zu erhalten, muss zunächst das automatis
 
    Konfiguration der qBittorrent WebUI: Passwort-Anpassung und Aktivierung des Localhost-Bypass für die Gluetun-Integration.
 
-10. Konfiguration von Radarr & Sonarr (Download-Client)
+.. raw:: pdf
+
+   PageBreak
+
+11. Konfiguration von Radarr & Sonarr (Download-Client)
 -------------------------------------------------------
 Damit Radarr und Sonarr wissen, wie sie Filme und Serien herunterladen sollen, muss qBittorrent als Download-Client verknüpft werden.
 
@@ -244,7 +262,7 @@ Damit Radarr und Sonarr wissen, wie sie Filme und Serien herunterladen sollen, m
 .. note::
    Die obigen Screenshots zeigen die identische Konfiguration für beide Dienste. Achten Sie darauf, den Test-Button zu klicken, um die Verbindung zu verifizieren.
 
-11. Optionale Konfiguration: Automatisierte Dateibenennung (Sonarr & Radarr)
+12. Optionale Konfiguration: Automatisierte Dateibenennung (Sonarr & Radarr)
 ----------------------------------------------------------------------------
 Um eine saubere und einheitliche Struktur in Ihrer Medienbibliothek zu gewährleisten, kann sowohl in Sonarr als auch in Radarr die automatisierte Umbenennung von Dateien aktiviert werden. Dies verhindert kryptische Dateinamen und erleichtert das Scannen durch Jellyfin.
 
@@ -276,7 +294,7 @@ Um eine saubere und einheitliche Struktur in Ihrer Medienbibliothek zu gewährle
    Durch diese Einstellung werden Dateien nach dem Download automatisch verschoben und umbenannt, sobald sie in das Verzeichnis ``/srv/media`` importiert werden.
 
 
-12. Prowlarr: Indexer-Zentrale & API-Synchronisation
+13. Prowlarr: Indexer-Zentrale & API-Synchronisation
 ----------------------------------------------------
 Prowlarr dient als zentrale Verwaltung für Indexer. Damit die gefundenen Tracker automatisch an Radarr und Sonarr verteilt werden, müssen diese Apps über API-Keys mit Prowlarr verbunden werden.
 
@@ -360,7 +378,11 @@ Stellen Sie sicher, dass der Zugriff innerhalb des lokalen Netzwerks nicht block
 
    **Sicherheit:** Konfiguration der Authentifizierungsmethode für den reibungslosen API-Zugriff.
 
-13. Indexer-Konfiguration in Prowlarr
+.. raw:: pdf
+
+   PageBreak
+
+14. Indexer-Konfiguration in Prowlarr
 -------------------------------------
 Nachdem die Applikationen (Radarr/Sonarr) verbunden sind, müssen die eigentlichen Datenquellen – die Indexer – hinzugefügt werden. Prowlarr fungiert hier als Proxy, der die Suchanfragen an die verschiedenen Tracker weiterleitet.
 
@@ -397,10 +419,10 @@ Nachdem Sie BitSearch, EZTV, LimeTorrents und The Pirate Bay hinzugefügt haben,
    **Erfolgskontrolle:** Alle konfigurierten Indexer sind aktiv und bereit für die Synchronisation mit Radarr und Sonarr.
 
 .. note::
-   Dank der in Schritt 12 eingerichteten "Full Sync" Verbindung werden diese Indexer nun automatisch und ohne weiteres Zutun in Radarr und Sonarr unter *Settings -> Indexers* eingetragen.
+   Dank der in Schritt 13 eingerichteten "Full Sync" Verbindung werden diese Indexer nun automatisch und ohne weiteres Zutun in Radarr und Sonarr unter *Settings -> Indexers* eingetragen.
 
 
-14. Erster Funktions-Test: Validierung der Automatisierung
+15. Erster Funktions-Test: Validierung der Automatisierung
 -----------------------------------------------------------
 Nach Abschluss der Konfiguration wird die gesamte Kette – von der Suche über den Download via VPN bis zum Import – validiert. Hierfür nutzen wir die Filmverwaltung (**Radarr**).
 
@@ -446,7 +468,11 @@ Wechseln Sie in den Bereich **Activity**, um den Status der Downloads in Echtzei
 .. note::
    **Rechtlicher Hinweis:** Dieser Test dient ausschließlich der technischen Validierung der Infrastruktur unter Verwendung von Beispieldaten. Der Betreiber ist selbst für die Einhaltung der geltenden Urheberrechtsbestimmungen verantwortlich.
 
-15. Jellyfin: Mediatheken & TofuBox Branding
+.. raw:: pdf
+
+   PageBreak
+
+16. Jellyfin: Mediatheken & TofuBox Branding
 --------------------------------------------
 Nachdem die Test-Downloads abgeschlossen sind, werden diese in der Streaming-Zentrale (Jellyfin) verfügbar gemacht und das System optisch an das Projektdesign angepasst.
 
@@ -556,6 +582,10 @@ Nach dem Speichern erstrahlt die TofuBox-Oberfläche im neuen Design. Alle impor
    :width: 100%
 
    **Resultat:** Die fertig konfigurierte TofuBox-Mediathek mit aktivem Branding und geladenen Inhalten.
+
+.. raw:: pdf
+
+   PageBreak
 
 Anleitung: Monitoring & Logging
 ================================
