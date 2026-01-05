@@ -184,9 +184,6 @@ Starten Sie die Container-Infrastruktur im Hintergrund:
 | Radarr        | 7878          | http://192.168.110.60:7878         | Filmverwaltung: Automatisches Herunterladen, Umbenennen     |
 |               |               |                                    | und Sortieren von Filmen.                                   |
 +---------------+---------------+------------------------------------+-------------------------------------------------------------+
-| Bazarr        | 6767          | http://192.168.110.60:6767         | Untertitelverwaltung: Lädt Untertitel für Serien & Filme    |
-|               |               |                                    | automatisch herunter und verknüpft sie mit Sonarr/Radarr.   |
-+---------------+---------------+------------------------------------+-------------------------------------------------------------+
 | Prowlarr      | 9696          | http://192.168.110.60:9696         | Indexer-Manager: Verbindet Torrent/Usenet-Indexer mit       |
 |               |               |                                    | Sonarr, Radarr, Lidarr, etc.                                |
 +---------------+---------------+------------------------------------+-------------------------------------------------------------+
