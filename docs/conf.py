@@ -111,3 +111,5 @@ spelling_word_list_filename = ["spelling_wordlist.txt"]
 
 # generate PDF:
 #  rst2pdf .\docs\SA\tofubox_project.rst -s tango,kerning -o tofu_box_technische_documentation.pdf
+
+# rst2pdf .\docs\SA\tofubox_project.rst -s tango,kerning --footer="###Page###" -o tofu_box_technische_documentation.pdf
