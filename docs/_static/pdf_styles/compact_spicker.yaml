@@ -1,0 +1,41 @@
+pageSetup:
+  size: A4
+  # Maße ohne Einheiten-Suffix oder mit expliziter pt-Zahl
+  margin-top: 20      # rst2pdf interpretiert nackte Zahlen oft als Punkte (pt)
+  margin-bottom: 20
+  margin-left: 25
+  margin-right: 25
+  margin-gutter: 0
+  spacing-header: 5
+  spacing-footer: 5
+  firstPageTemplate: cutePage
+
+styles:
+  base:
+    fontSize: 8
+    leading: 9
+    alignment: TA_LEFT
+
+  heading:
+    fontSize: 10
+    spaceBefore: 4
+    spaceAfter: 4
+    fontName: stdBold
+
+  table:
+    fontSize: 7
+    leading: 8
+    spaceBefore: 2
+    spaceAfter: 2
+    # Padding-Werte müssen oft nackte Zahlen sein
+    padding-left: 2
+    padding-right: 2
+    padding-top: 1
+    padding-bottom: 1
+
+  code:
+    fontSize: 7
+    backColor: #eeeeee
+    leftIndent: 0
+    spaceBefore: 4
+    spaceAfter: 4

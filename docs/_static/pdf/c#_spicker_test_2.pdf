@@ -1,0 +1,852 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R /F5 6 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/BaseFont /Courier-Bold /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+6 0 obj
+<<
+/BaseFont /Courier-Oblique /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font
+>>
+endobj
+7 0 obj
+<<
+/Contents 24 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 23 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+8 0 obj
+<<
+/Contents 25 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 23 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+9 0 obj
+<<
+/Outlines 11 0 R /PageLabels 26 0 R /PageMode /UseNone /Pages 23 0 R /Type /Catalog
+>>
+endobj
+10 0 obj
+<<
+/Author () /CreationDate (D:20260107233725+01'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260107233725+01'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title () /Trapped /False
+>>
+endobj
+11 0 obj
+<<
+/Count 11 /First 12 0 R /Last 22 0 R /Type /Outlines
+>>
+endobj
+12 0 obj
+<<
+/Dest [ 7 0 R /XYZ 31 810.8898 0 ] /Next 13 0 R /Parent 11 0 R /Title (Naming & Snippets \(Tab+Tab\))
+>>
+endobj
+13 0 obj
+<<
+/Dest [ 7 0 R /XYZ 31 672.8898 0 ] /Next 14 0 R /Parent 11 0 R /Prev 12 0 R /Title (Vererbung & Konstruktoren \(base\))
+>>
+endobj
+14 0 obj
+<<
+/Dest [ 7 0 R /XYZ 31 546.6898 0 ] /Next 15 0 R /Parent 11 0 R /Prev 13 0 R /Title (Polymorphismus \(virtual / override\))
+>>
+endobj
+15 0 obj
+<<
+/Dest [ 7 0 R /XYZ 31 412.0898 0 ] /Next 16 0 R /Parent 11 0 R /Prev 14 0 R /Title (Interfaces \(Der "Vertrag"\))
+>>
+endobj
+16 0 obj
+<<
+/Dest [ 7 0 R /XYZ 31 296.0898 0 ] /Next 17 0 R /Parent 11 0 R /Prev 15 0 R /Title (Input, Men\374 & Datum \(Pr\374fungsklassiker\))
+>>
+endobj
+17 0 obj
+<<
+/Dest [ 8 0 R /XYZ 31 810.8898 0 ] /Next 18 0 R /Parent 11 0 R /Prev 16 0 R /Title (Use Case: Suchen & Filtern in Listen)
+>>
+endobj
+18 0 obj
+<<
+/Dest [ 8 0 R /XYZ 31 667.8898 0 ] /Next 19 0 R /Parent 11 0 R /Prev 17 0 R /Title (Praktische String-Tricks & Sortierung)
+>>
+endobj
+19 0 obj
+<<
+/Dest [ 8 0 R /XYZ 31 541.6898 0 ] /Next 20 0 R /Parent 11 0 R /Prev 18 0 R /Title (Dateien \(JSON Save/Load\))
+>>
+endobj
+20 0 obj
+<<
+/Dest [ 8 0 R /XYZ 31 423.8898 0 ] /Next 21 0 R /Parent 11 0 R /Prev 19 0 R /Title (Listen-Logik & LINQ)
+>>
+endobj
+21 0 obj
+<<
+/Dest [ 8 0 R /XYZ 31 348.0898 0 ] /Next 22 0 R /Parent 11 0 R /Prev 20 0 R /Title (JSON, Singleton & Static)
+>>
+endobj
+22 0 obj
+<<
+/Dest [ 8 0 R /XYZ 31 221.8898 0 ] /Parent 11 0 R /Prev 21 0 R /Title (Checkliste Keywords)
+>>
+endobj
+23 0 obj
+<<
+/Count 2 /Kids [ 7 0 R 8 0 R ] /Type /Pages
+>>
+endobj
+24 0 obj
+<<
+/Length 22932
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 31 789.8898 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F1 17.5 Tf .133333 .133333 .133333 rg (Naming & Snippets \(Tab+Tab\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 31 783.8898 cm
+Q
+q
+1 0 0 1 31 678.8898 cm
+q
+1 1 1 rg
+n 0 105 533.2756 -15 re f*
+.878431 .878431 .878431 rg
+n 0 90 533.2756 -15 re f*
+1 1 1 rg
+n 0 75 533.2756 -15 re f*
+.878431 .878431 .878431 rg
+n 0 60 533.2756 -15 re f*
+1 1 1 rg
+n 0 45 533.2756 -15 re f*
+.878431 .878431 .878431 rg
+n 0 30 533.2756 -15 re f*
+1 1 1 rg
+n 0 15 533.2756 -15 re f*
+0 0 0 rg
+BT /F2 8 Tf 9 TL ET
+q
+1 0 0 1 6 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F2 8 Tf 9 TL 26.88367 0 Td (Typ) Tj T* -26.88367 0 Td ET
+Q
+Q
+q
+1 0 0 1 85.99134 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F2 8 Tf 9 TL 29.74734 0 Td (Beispiel \(Pascal/camel\)) Tj T* -29.74734 0 Td ET
+Q
+Q
+q
+1 0 0 1 245.974 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F2 8 Tf 9 TL 19.32767 0 Td (Snippet) Tj T* -19.32767 0 Td ET
+Q
+Q
+q
+1 0 0 1 325.9654 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F2 8 Tf 9 TL 70.87112 0 Td (Nutzen / Syntax) Tj T* -70.87112 0 Td ET
+Q
+Q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 78 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F2 8 Tf 9 TL (Klasse) Tj T* ET
+Q
+Q
+q
+1 0 0 1 85.99134 78 cm
+q
+BT 1 0 0 1 0 1 Tm 9 TL /F3 8 Tf 0 0 0 rg (public) Tj ( ) Tj (class) Tj ( ) Tj (Geraet) Tj T* ET
+Q
+Q
+q
+1 0 0 1 245.974 78 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F3 8 Tf 9 TL (class) Tj T* ET
+Q
+Q
+q
+1 0 0 1 325.9654 78 cm
+q
+BT 1 0 0 1 0 1 Tm 9 TL /F3 8 Tf 0 0 0 rg (class) Tj ( ) Tj (Name) Tj ( ) Tj ({) Tj ( ) Tj (}) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 63 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F2 8 Tf 9 TL (Methode) Tj T* ET
+Q
+Q
+q
+1 0 0 1 85.99134 63 cm
+q
+BT 1 0 0 1 0 1 Tm 9 TL /F3 8 Tf 0 0 0 rg (public) Tj ( ) Tj (void) Tj ( ) Tj (Berechne\(\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 245.974 63 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F3 8 Tf 9 TL (ctor) Tj T* ET
+Q
+Q
+q
+1 0 0 1 325.9654 63 cm
+q
+BT 1 0 0 1 0 1 Tm 9 TL /F3 8 Tf 0 0 0 rg (public) Tj ( ) Tj (Name\(\)) Tj ( ) Tj ({) Tj ( ) Tj (}) Tj /F1 8 Tf ( \(Konstr.\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 48 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F2 8 Tf 9 TL (Property) Tj T* ET
+Q
+Q
+q
+1 0 0 1 85.99134 48 cm
+q
+BT 1 0 0 1 0 1 Tm 9 TL /F3 8 Tf 0 0 0 rg (public) Tj ( ) Tj (int) Tj ( ) Tj (Ram) Tj ( ) Tj ({) Tj ( ) Tj (get;) Tj ( ) Tj (}) Tj T* ET
+Q
+Q
+q
+1 0 0 1 245.974 48 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F3 8 Tf 9 TL (prop) Tj T* ET
+Q
+Q
+q
+1 0 0 1 325.9654 48 cm
+q
+BT 1 0 0 1 0 1 Tm 9 TL /F3 8 Tf 0 0 0 rg (public) Tj ( ) Tj (T) Tj ( ) Tj (X) Tj ( ) Tj ({) Tj ( ) Tj (get;) Tj ( ) Tj (set;) Tj ( ) Tj (}) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 33 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F2 8 Tf 9 TL (Variable) Tj T* ET
+Q
+Q
+q
+1 0 0 1 85.99134 33 cm
+q
+BT 1 0 0 1 0 1 Tm 9 TL /F3 8 Tf 0 0 0 rg (int) Tj ( ) Tj (count) Tj ( ) Tj (=) Tj ( ) Tj (0;) Tj T* ET
+Q
+Q
+q
+1 0 0 1 245.974 33 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F3 8 Tf 9 TL (cw) Tj T* ET
+Q
+Q
+q
+1 0 0 1 325.9654 33 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F3 8 Tf 9 TL (Console.WriteLine\($"+{v}"\);) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 18 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F2 8 Tf 9 TL (Schleife) Tj T* ET
+Q
+Q
+q
+1 0 0 1 85.99134 18 cm
+q
+BT 1 0 0 1 0 1 Tm 9 TL /F3 8 Tf 0 0 0 rg (foreach\(var) Tj ( ) Tj (i) Tj ( ) Tj (in) Tj ( ) Tj (list\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 245.974 18 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F3 8 Tf 9 TL (foreach) Tj T* ET
+Q
+Q
+q
+1 0 0 1 325.9654 18 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F1 8 Tf 9 TL (Listen/Arrays durchlaufen) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F2 8 Tf 9 TL (Fehler) Tj T* ET
+Q
+Q
+q
+1 0 0 1 85.99134 3 cm
+q
+BT 1 0 0 1 0 1 Tm 9 TL /F3 8 Tf 0 0 0 rg (try) Tj ( ) Tj ({) Tj ( ) Tj (...) Tj ( ) Tj (}) Tj T* ET
+Q
+Q
+q
+1 0 0 1 245.974 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F3 8 Tf 9 TL (try) Tj T* ET
+Q
+Q
+q
+1 0 0 1 325.9654 3 cm
+q
+BT 1 0 0 1 0 1 Tm 9 TL /F3 8 Tf 0 0 0 rg (try) Tj ( ) Tj ({) Tj ( ) Tj (}) Tj ( ) Tj (catch) Tj ( ) Tj ({) Tj ( ) Tj (}) Tj /F1 8 Tf ( \(JSON/IO\)) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 90 m 533.2756 90 l S
+n 0 75 m 533.2756 75 l S
+n 0 60 m 533.2756 60 l S
+n 0 45 m 533.2756 45 l S
+n 0 30 m 533.2756 30 l S
+n 0 15 m 533.2756 15 l S
+n 79.99134 0 m 79.99134 105 l S
+n 239.974 0 m 239.974 105 l S
+n 319.9654 0 m 319.9654 105 l S
+n 0 105 m 533.2756 105 l S
+n 0 0 m 533.2756 0 l S
+n 0 0 m 0 105 l S
+n 533.2756 0 m 533.2756 105 l S
+Q
+Q
+Q
+q
+1 0 0 1 31 676.8898 cm
+Q
+q
+1 0 0 1 31 651.8898 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F1 17.5 Tf .133333 .133333 .133333 rg (Vererbung & Konstruktoren \(base\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 31 550.6898 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+n -6 -6 532.0756 96 re S
+Q
+q
+BT 1 0 0 1 0 77 Tm 8.4 TL /F4 7 Tf .12549 .290196 .529412 rg (public) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (abstract) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (class) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg (Geraet) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg ({) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj /F4 7 Tf .12549 .290196 .529412 rg (public) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (string) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (SN) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg ({) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (get) Tj 0 0 0 rg (;) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (set) Tj 0 0 0 rg (;) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg (}) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj /F4 7 Tf .12549 .290196 .529412 rg (public) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (string) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (Hersteller) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg ({) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (get) Tj 0 0 0 rg (;) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (set) Tj 0 0 0 rg (;) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg (}) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj /F4 7 Tf .12549 .290196 .529412 rg (public) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (Geraet) Tj /F4 7 Tf (\() Tj .12549 .290196 .529412 rg (string) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (sn) Tj /F4 7 Tf (,) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (string) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (h) Tj /F4 7 Tf (\)) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg ({) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (this) Tj 0 0 0 rg (.) Tj /F3 7 Tf (SN) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (sn) Tj /F4 7 Tf (;) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (this) Tj 0 0 0 rg (.) Tj /F3 7 Tf (Hersteller) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (h) Tj /F4 7 Tf (;) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg (}) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* /F4 7 Tf 0 0 0 rg (}) Tj /F3 7 Tf .972549 .972549 .972549 rg  T*  T* /F4 7 Tf .12549 .290196 .529412 rg (public) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (class) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg (Computer) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg (:) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (Geraet) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg ({) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj /F4 7 Tf .12549 .290196 .529412 rg (public) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (int) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (RAM) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg ({) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (get) Tj 0 0 0 rg (;) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (set) Tj 0 0 0 rg (;) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg (}) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj /F4 7 Tf .12549 .290196 .529412 rg (public) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (Computer) Tj /F4 7 Tf (\() Tj .12549 .290196 .529412 rg (string) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (sn) Tj /F4 7 Tf (,) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (string) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (h) Tj /F4 7 Tf (,) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (int) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (r) Tj /F4 7 Tf (\)) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg (:) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (base) Tj 0 0 0 rg (\() Tj /F3 7 Tf (sn) Tj /F4 7 Tf (,) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (h) Tj /F4 7 Tf (\)) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg ({) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (this) Tj 0 0 0 rg (.) Tj /F3 7 Tf (RAM) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (r) Tj /F4 7 Tf (;) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg (}) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* /F4 7 Tf 0 0 0 rg (}) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 31 525.6898 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F1 17.5 Tf .133333 .133333 .133333 rg (Polymorphismus \(virtual / override\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 31 416.0898 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+n -6 -6 532.0756 104.4 re S
+Q
+q
+BT 1 0 0 1 0 85.4 Tm 8.4 TL /F4 7 Tf .12549 .290196 .529412 rg (public) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (class) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg (Kurs) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg ({) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj /F4 7 Tf .12549 .290196 .529412 rg (public) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (decimal) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (Basis) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg ({) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (get) Tj 0 0 0 rg (;) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (set) Tj 0 0 0 rg (;) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg (}) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj /F4 7 Tf .12549 .290196 .529412 rg (public) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (virtual) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (decimal) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (Berechne) Tj /F4 7 Tf (\() Tj .12549 .290196 .529412 rg (int) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (t) Tj /F4 7 Tf (\)) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj (>) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (Basis) Tj /F4 7 Tf (;) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* /F4 7 Tf 0 0 0 rg (}) Tj /F3 7 Tf .972549 .972549 .972549 rg  T*  T* /F4 7 Tf .12549 .290196 .529412 rg (public) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (class) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg (OnlineKurs) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg (:) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (Kurs) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg ({) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj /F4 7 Tf .12549 .290196 .529412 rg (public) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (override) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (decimal) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (Berechne) Tj /F4 7 Tf (\() Tj .12549 .290196 .529412 rg (int) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (t) Tj /F4 7 Tf (\)) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg ({) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (        ) Tj /F4 7 Tf .12549 .290196 .529412 rg (decimal) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (geb) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (base) Tj 0 0 0 rg (.) Tj /F3 7 Tf (Berechne) Tj /F4 7 Tf (\() Tj /F3 7 Tf (t) Tj /F4 7 Tf (\);) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F5 7 Tf .560784 .34902 .007843 rg (// Basis-Logik nutzen) Tj T* /F3 7 Tf .972549 .972549 .972549 rg (        ) Tj /F4 7 Tf .12549 .290196 .529412 rg (return) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg (\() Tj /F3 7 Tf (t) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (<) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 .811765 rg (5) Tj 0 0 0 rg (\)) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (?) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (geb) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (+) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 .811765 rg (10m) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg (:) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (geb) Tj /F4 7 Tf (;) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F5 7 Tf .560784 .34902 .007843 rg (// Kleingruppenzuschlag) Tj T* /F3 7 Tf .972549 .972549 .972549 rg (    ) Tj /F4 7 Tf 0 0 0 rg (}) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* /F4 7 Tf 0 0 0 rg (}) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 31 391.0898 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F1 17.5 Tf .133333 .133333 .133333 rg (Interfaces \(Der "Vertrag"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 31 376.0898 cm
+q
+BT 1 0 0 1 0 1 Tm 9 TL /F1 8 Tf 0 0 0 rg (Wird genutzt, wenn Klassen gleiches Verhalten haben \(z.B. ) Tj /F3 8 Tf (Druckbar) Tj /F1 8 Tf (\), aber nicht verwandt sind.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 31 300.0898 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+n -6 -6 532.0756 70.8 re S
+Q
+q
+BT 1 0 0 1 0 51.8 Tm 8.4 TL /F4 7 Tf .12549 .290196 .529412 rg (public) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (interface) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (IDruckbar) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg ({) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj /F4 7 Tf .12549 .290196 .529412 rg (void) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (Drucken) Tj /F4 7 Tf (\(\);) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F5 7 Tf .560784 .34902 .007843 rg (// Nur Signatur, kein Body!) Tj T* /F4 7 Tf 0 0 0 rg (}) Tj /F3 7 Tf .972549 .972549 .972549 rg  T*  T* /F4 7 Tf .12549 .290196 .529412 rg (public) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (class) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg (Bericht) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg (:) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (IDruckbar) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg ({) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj /F4 7 Tf .12549 .290196 .529412 rg (public) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (void) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (Drucken) Tj /F4 7 Tf (\(\)) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj (>) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (Console) Tj /F4 7 Tf (.) Tj /F3 7 Tf (WriteLine) Tj /F4 7 Tf (\() Tj /F3 7 Tf .305882 .603922 .023529 rg ("Drucke Bericht...") Tj /F4 7 Tf 0 0 0 rg (\);) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* /F4 7 Tf 0 0 0 rg (}) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 31 275.0898 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F1 17.5 Tf .133333 .133333 .133333 rg (Input, Men\374 & Datum \(Pr\374fungsklassiker\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 31 64.68976 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+n -6 -6 532.0756 205.2 re S
+Q
+q
+BT 1 0 0 1 0 186.2 Tm 8.4 TL /F5 7 Tf .560784 .34902 .007843 rg (// 1. Robuster Input via TryParse \(Verhindert Absturz\)) Tj T* /F4 7 Tf .12549 .290196 .529412 rg (public) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (static) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (int) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (ReadInt) Tj /F4 7 Tf (\() Tj .12549 .290196 .529412 rg (string) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (prompt) Tj /F4 7 Tf (\)) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg ({) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj /F4 7 Tf .12549 .290196 .529412 rg (int) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (res) Tj /F4 7 Tf (;) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (Console) Tj /F4 7 Tf (.) Tj /F3 7 Tf (Write) Tj /F4 7 Tf (\() Tj /F3 7 Tf (prompt) Tj /F4 7 Tf (\);) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj /F4 7 Tf .12549 .290196 .529412 rg (while) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg (\() Tj .807843 .360784 0 rg (!) Tj .12549 .290196 .529412 rg (int) Tj 0 0 0 rg (.) Tj /F3 7 Tf (TryParse) Tj /F4 7 Tf (\() Tj /F3 7 Tf (Console) Tj /F4 7 Tf (.) Tj /F3 7 Tf (ReadLine) Tj /F4 7 Tf (\(\),) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (out) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (res) Tj /F4 7 Tf (\)\)) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg ({) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (        ) Tj 0 0 0 rg (Console) Tj /F4 7 Tf (.) Tj /F3 7 Tf (Write) Tj /F4 7 Tf (\() Tj /F3 7 Tf .305882 .603922 .023529 rg ("Fehler! ") Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (+) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (prompt) Tj /F4 7 Tf (\);) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj /F4 7 Tf 0 0 0 rg (}) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj /F4 7 Tf .12549 .290196 .529412 rg (return) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (res) Tj /F4 7 Tf (;) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* /F4 7 Tf 0 0 0 rg (}) Tj /F3 7 Tf .972549 .972549 .972549 rg  T*  T* /F5 7 Tf .560784 .34902 .007843 rg (// 2. Datum ) Tj (&) Tj ( Zeit \(Alter berechnen\)) Tj T* /F4 7 Tf .12549 .290196 .529412 rg (int) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (alter) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (DateTime) Tj /F4 7 Tf (.) Tj /F3 7 Tf (Now) Tj /F4 7 Tf (.) Tj /F3 7 Tf (Year) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (-) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (baujahr) Tj /F4 7 Tf (;) Tj /F3 7 Tf .972549 .972549 .972549 rg  T*  T* /F5 7 Tf .560784 .34902 .007843 rg (// 3. Men\374-Struktur \(Main\)) Tj T* /F4 7 Tf .12549 .290196 .529412 rg (bool) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (exit) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (false) Tj 0 0 0 rg (;) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* /F4 7 Tf .12549 .290196 .529412 rg (while) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg (\() Tj .807843 .360784 0 rg (!) Tj /F3 7 Tf 0 0 0 rg (exit) Tj /F4 7 Tf (\)) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg ({) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj /F4 7 Tf .12549 .290196 .529412 rg (int) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (wahl) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (ReadInt) Tj /F4 7 Tf (\() Tj /F3 7 Tf .305882 .603922 .023529 rg ("1: Neu, 2: Liste, 3: Filter, 0: Exit: ") Tj /F4 7 Tf 0 0 0 rg (\);) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj /F4 7 Tf .12549 .290196 .529412 rg (switch) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg (\() Tj /F3 7 Tf (wahl) Tj /F4 7 Tf (\)) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg ({) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (        ) Tj /F4 7 Tf .12549 .290196 .529412 rg (case) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 .811765 rg (1) Tj 0 0 0 rg (:) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (AddGeraet) Tj /F4 7 Tf (\(\);) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (break) Tj 0 0 0 rg (;) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (        ) Tj /F4 7 Tf .12549 .290196 .529412 rg (case) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 .811765 rg (3) Tj 0 0 0 rg (:) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (FilterNachHersteller) Tj /F4 7 Tf (\(\);) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (break) Tj 0 0 0 rg (;) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (        ) Tj /F4 7 Tf .12549 .290196 .529412 rg (case) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 .811765 rg (0) Tj 0 0 0 rg (:) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (exit) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (true) Tj 0 0 0 rg (;) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (break) Tj 0 0 0 rg (;) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (        ) Tj /F4 7 Tf .12549 .290196 .529412 rg (default) Tj 0 0 0 rg (:) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (Console) Tj /F4 7 Tf (.) Tj /F3 7 Tf (WriteLine) Tj /F4 7 Tf (\() Tj /F3 7 Tf .305882 .603922 .023529 rg ("Ung\374ltig") Tj /F4 7 Tf 0 0 0 rg (\);) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (break) Tj 0 0 0 rg (;) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj /F4 7 Tf 0 0 0 rg (}) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* /F4 7 Tf 0 0 0 rg (}) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 25 20 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F1 8 Tf 9 TL 210.2378 0 Td (HF Sphinx Documentation | Seite 1) Tj T* -210.2378 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+25 0 obj
+<<
+/Length 18636
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 31 789.8898 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F1 17.5 Tf .133333 .133333 .133333 rg (Use Case: Suchen & Filtern in Listen) Tj T* ET
+Q
+Q
+q
+1 0 0 1 31 671.8898 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+n -6 -6 532.0756 112.8 re S
+Q
+q
+BT 1 0 0 1 0 93.8 Tm 8.4 TL /F4 7 Tf .12549 .290196 .529412 rg (public) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (void) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (FilterNachHersteller) Tj /F4 7 Tf (\() Tj /F3 7 Tf (List) Tj /F4 7 Tf .807843 .360784 0 rg (<) Tj /F3 7 Tf 0 0 0 rg (Geraet) Tj /F4 7 Tf .807843 .360784 0 rg (>) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (liste) Tj /F4 7 Tf (\)) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg ({) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj 0 0 0 rg (Console) Tj /F4 7 Tf (.) Tj /F3 7 Tf (Write) Tj /F4 7 Tf (\() Tj /F3 7 Tf .305882 .603922 .023529 rg ("Welcher Hersteller? ") Tj /F4 7 Tf 0 0 0 rg (\);) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj /F4 7 Tf .12549 .290196 .529412 rg (string) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (suche) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (Console) Tj /F4 7 Tf (.) Tj /F3 7 Tf (ReadLine) Tj /F4 7 Tf (\(\).) Tj /F3 7 Tf (ToLower) Tj /F4 7 Tf (\(\);) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj /F4 7 Tf .12549 .290196 .529412 rg (var) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (treffer) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (liste) Tj /F4 7 Tf (.) Tj /F3 7 Tf (Where) Tj /F4 7 Tf (\() Tj /F3 7 Tf (g) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj (>) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (g) Tj /F4 7 Tf (.) Tj /F3 7 Tf (Hersteller) Tj /F4 7 Tf (.) Tj /F3 7 Tf (ToLower) Tj /F4 7 Tf (\(\).) Tj /F3 7 Tf (Contains) Tj /F4 7 Tf (\() Tj /F3 7 Tf (suche) Tj /F4 7 Tf (\)\).) Tj /F3 7 Tf (ToList) Tj /F4 7 Tf (\(\);) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj /F4 7 Tf .12549 .290196 .529412 rg (foreach) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg (\() Tj .12549 .290196 .529412 rg (var) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (g) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (in) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (treffer) Tj /F4 7 Tf (\)) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (Console) Tj /F4 7 Tf (.) Tj /F3 7 Tf (WriteLine) Tj /F4 7 Tf (\() Tj /F3 7 Tf .305882 .603922 .023529 rg ($"{g.SN}: {g.Hersteller}") Tj /F4 7 Tf 0 0 0 rg (\);) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* /F4 7 Tf 0 0 0 rg (}) Tj /F3 7 Tf .972549 .972549 .972549 rg  T*  T* /F5 7 Tf .560784 .34902 .007843 rg (// Bonus: Schnelle Testdaten-Liste erstellen) Tj T* /F3 7 Tf 0 0 0 rg (List) Tj /F4 7 Tf .807843 .360784 0 rg (<) Tj /F3 7 Tf 0 0 0 rg (Geraet) Tj /F4 7 Tf .807843 .360784 0 rg (>) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (lab) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (new) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (List) Tj /F4 7 Tf .807843 .360784 0 rg (<) Tj /F3 7 Tf 0 0 0 rg (Geraet) Tj /F4 7 Tf .807843 .360784 0 rg (>) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg ({) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj /F4 7 Tf .12549 .290196 .529412 rg (new) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (Computer) Tj /F4 7 Tf (\() Tj /F3 7 Tf .305882 .603922 .023529 rg ("SN1") Tj /F4 7 Tf 0 0 0 rg (,) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj .305882 .603922 .023529 rg ("Dell") Tj /F4 7 Tf 0 0 0 rg (,) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 .811765 rg (16) Tj 0 0 0 rg (\),) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj /F4 7 Tf .12549 .290196 .529412 rg (new) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (Computer) Tj /F4 7 Tf (\() Tj /F3 7 Tf .305882 .603922 .023529 rg ("SN2") Tj /F4 7 Tf 0 0 0 rg (,) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj .305882 .603922 .023529 rg ("HP") Tj /F4 7 Tf 0 0 0 rg (,) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 .811765 rg (8) Tj 0 0 0 rg (\)) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* /F4 7 Tf 0 0 0 rg (};) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 31 646.8898 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F1 17.5 Tf .133333 .133333 .133333 rg (Praktische String-Tricks & Sortierung) Tj T* ET
+Q
+Q
+q
+1 0 0 1 31 545.6898 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+n -6 -6 532.0756 96 re S
+Q
+q
+BT 1 0 0 1 0 77 Tm 8.4 TL /F5 7 Tf .560784 .34902 .007843 rg (// 1. Tabellen-Optik \(linksb\374ndig -15 Zeichen\)) Tj T* /F4 7 Tf .12549 .290196 .529412 rg (string) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (line) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj .305882 .603922 .023529 rg ($"{g.GetType\(\).Name,-15} | {g.SN,-10}") Tj /F4 7 Tf 0 0 0 rg (;) Tj /F3 7 Tf .972549 .972549 .972549 rg  T*  T* /F5 7 Tf .560784 .34902 .007843 rg (// 2. Sortieren \(LINQ\)) Tj T* /F4 7 Tf .12549 .290196 .529412 rg (var) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (sortiert) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (liste) Tj /F4 7 Tf (.) Tj /F3 7 Tf (OrderBy) Tj /F4 7 Tf (\() Tj /F3 7 Tf (g) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj (>) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (g) Tj /F4 7 Tf (.) Tj /F3 7 Tf (Baujahr) Tj /F4 7 Tf (\).) Tj /F3 7 Tf (ToList) Tj /F4 7 Tf (\(\);) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F5 7 Tf .560784 .34902 .007843 rg (// Aufsteigend) Tj T* /F4 7 Tf .12549 .290196 .529412 rg (var) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (teuerste) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (liste) Tj /F4 7 Tf (.) Tj /F3 7 Tf (OrderByDescending) Tj /F4 7 Tf (\() Tj /F3 7 Tf (g) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj (>) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (g) Tj /F4 7 Tf (.) Tj /F3 7 Tf (Preis) Tj /F4 7 Tf (\).) Tj /F3 7 Tf (First) Tj /F4 7 Tf (\(\);) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F5 7 Tf .560784 .34902 .007843 rg (// H\366chster Wert) Tj T* /F3 7 Tf .972549 .972549 .972549 rg  T* /F5 7 Tf .560784 .34902 .007843 rg (// 3. Null-Check ) Tj (&) Tj ( Runden) Tj T* /F4 7 Tf .12549 .290196 .529412 rg (string) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (h) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (input) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (??) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj .305882 .603922 .023529 rg ("Unbekannt") Tj /F4 7 Tf 0 0 0 rg (;) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* /F4 7 Tf .12549 .290196 .529412 rg (decimal) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (rund) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (Math) Tj /F4 7 Tf (.) Tj /F3 7 Tf (Round) Tj /F4 7 Tf (\() Tj /F3 7 Tf (preis) Tj /F4 7 Tf (,) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 .811765 rg (2) Tj 0 0 0 rg (\);) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 31 520.6898 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F1 17.5 Tf .133333 .133333 .133333 rg (Dateien \(JSON Save/Load\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 31 427.8898 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+n -6 -6 532.0756 87.6 re S
+Q
+q
+BT 1 0 0 1 0 68.6 Tm 8.4 TL /F4 7 Tf .12549 .290196 .529412 rg (using) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg (System.IO) Tj (;) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* /F5 7 Tf .560784 .34902 .007843 rg (// Speichern: Liste -) Tj (>) Tj ( JSON -) Tj (>) Tj ( Datei) Tj T* /F3 7 Tf 0 0 0 rg (File) Tj /F4 7 Tf (.) Tj /F3 7 Tf (WriteAllText) Tj /F4 7 Tf (\() Tj /F3 7 Tf .305882 .603922 .023529 rg ("daten.json") Tj /F4 7 Tf 0 0 0 rg (,) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (JsonSerializer) Tj /F4 7 Tf (.) Tj /F3 7 Tf (Serialize) Tj /F4 7 Tf (\() Tj /F3 7 Tf (liste) Tj /F4 7 Tf (\)\);) Tj /F3 7 Tf .972549 .972549 .972549 rg  T*  T* /F5 7 Tf .560784 .34902 .007843 rg (// Laden: Datei -) Tj (>) Tj ( JSON -) Tj (>) Tj ( Liste) Tj T* /F4 7 Tf .12549 .290196 .529412 rg (if) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg (\() Tj /F3 7 Tf (File) Tj /F4 7 Tf (.) Tj /F3 7 Tf (Exists) Tj /F4 7 Tf (\() Tj /F3 7 Tf .305882 .603922 .023529 rg ("daten.json") Tj /F4 7 Tf 0 0 0 rg (\)\)) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg ({) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj /F4 7 Tf .12549 .290196 .529412 rg (string) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (inhalt) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (File) Tj /F4 7 Tf (.) Tj /F3 7 Tf (ReadAllText) Tj /F4 7 Tf (\() Tj /F3 7 Tf .305882 .603922 .023529 rg ("daten.json") Tj /F4 7 Tf 0 0 0 rg (\);) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj /F4 7 Tf .12549 .290196 .529412 rg (var) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (liste) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (JsonSerializer) Tj /F4 7 Tf (.) Tj /F3 7 Tf (Deserialize) Tj /F4 7 Tf .807843 .360784 0 rg (<) Tj /F3 7 Tf 0 0 0 rg (List) Tj /F4 7 Tf .807843 .360784 0 rg (<) Tj /F3 7 Tf 0 0 0 rg (Geraet) Tj /F4 7 Tf .807843 .360784 0 rg (>) Tj (>) Tj 0 0 0 rg (\() Tj /F3 7 Tf (inhalt) Tj /F4 7 Tf (\);) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* /F4 7 Tf 0 0 0 rg (}) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 31 402.8898 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F1 17.5 Tf .133333 .133333 .133333 rg (Listen-Logik & LINQ) Tj T* ET
+Q
+Q
+q
+1 0 0 1 31 352.0898 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+n -6 -6 532.0756 45.6 re S
+Q
+q
+BT 1 0 0 1 0 26.6 Tm 8.4 TL /F4 7 Tf .12549 .290196 .529412 rg (using) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg (System.Linq) Tj (;) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* /F4 7 Tf .12549 .290196 .529412 rg (var) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (defekt) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (lab) Tj /F4 7 Tf (.) Tj /F3 7 Tf (Where) Tj /F4 7 Tf (\() Tj /F3 7 Tf (g) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj (>) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (g) Tj /F4 7 Tf (.) Tj /F3 7 Tf (Zustand) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (==) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (Zustand) Tj /F4 7 Tf (.) Tj /F3 7 Tf (Defekt) Tj /F4 7 Tf (\).) Tj /F3 7 Tf (ToList) Tj /F4 7 Tf (\(\);) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* /F4 7 Tf .12549 .290196 .529412 rg (var) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (search) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (lab) Tj /F4 7 Tf (.) Tj /F3 7 Tf (FirstOrDefault) Tj /F4 7 Tf (\() Tj /F3 7 Tf (g) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj (>) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (g) Tj /F4 7 Tf (.) Tj /F3 7 Tf (SN) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (==) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj .305882 .603922 .023529 rg ("SN123") Tj /F4 7 Tf 0 0 0 rg (\);) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* /F4 7 Tf .12549 .290196 .529412 rg (decimal) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (total) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (kurse) Tj /F4 7 Tf (.) Tj /F3 7 Tf (Sum) Tj /F4 7 Tf (\() Tj /F3 7 Tf (k) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj (>) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (k) Tj /F4 7 Tf (.) Tj /F3 7 Tf (Berechne) Tj /F4 7 Tf (\() Tj 0 0 .811765 rg (10) Tj 0 0 0 rg (\)\);) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 31 327.0898 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F1 17.5 Tf .133333 .133333 .133333 rg (JSON, Singleton & Static) Tj T* ET
+Q
+Q
+q
+1 0 0 1 31 225.8898 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+n -6 -6 532.0756 96 re S
+Q
+q
+BT 1 0 0 1 0 77 Tm 8.4 TL /F5 7 Tf .560784 .34902 .007843 rg (// Singleton: Globaler Manager \(Zentraler Zugriff\)) Tj T* /F4 7 Tf .12549 .290196 .529412 rg (public) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (class) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg (App) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg ({) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj /F4 7 Tf .12549 .290196 .529412 rg (private) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (static) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (App) Tj .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (_inst) Tj /F4 7 Tf (;) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj /F4 7 Tf .12549 .290196 .529412 rg (private) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (App) Tj /F4 7 Tf (\(\)) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg ({) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg (}) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* (    ) Tj /F4 7 Tf .12549 .290196 .529412 rg (public) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (static) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (App) Tj .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (Get) Tj /F4 7 Tf (\(\)) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj (>) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (_inst) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (??=) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (new) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (App) Tj /F4 7 Tf (\(\);) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* /F4 7 Tf 0 0 0 rg (}) Tj /F3 7 Tf .972549 .972549 .972549 rg  T*  T* /F5 7 Tf .560784 .34902 .007843 rg (// Static Counter: Auto-Increment ID) Tj T* /F4 7 Tf .12549 .290196 .529412 rg (private) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (static) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (int) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (_cnt) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 .811765 rg (1000) Tj 0 0 0 rg (;) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* /F4 7 Tf .12549 .290196 .529412 rg (public) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (int) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj 0 0 0 rg (ID) Tj .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg ({) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .12549 .290196 .529412 rg (get) Tj 0 0 0 rg (;) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf 0 0 0 rg (}) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (=) Tj /F3 7 Tf .972549 .972549 .972549 rg ( ) Tj /F4 7 Tf .807843 .360784 0 rg (++) Tj /F3 7 Tf 0 0 0 rg (_cnt) Tj /F4 7 Tf (;) Tj /F3 7 Tf .972549 .972549 .972549 rg  T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 31 200.8898 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F1 17.5 Tf .133333 .133333 .133333 rg (Checkliste Keywords) Tj T* ET
+Q
+Q
+q
+1 0 0 1 31 190.8898 cm
+Q
+q
+1 0 0 1 31 190.8898 cm
+Q
+q
+1 0 0 1 31 181.8898 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F3 8 Tf 9 TL 9.2 0 Td (\177) Tj T* -9.2 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 1 Tm 9 TL /F2 8 Tf 0 0 0 rg (abstract) Tj /F1 8 Tf (: Nur Elternklasse, kein ) Tj /F3 8 Tf (new\(\)) Tj /F1 8 Tf (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 31 175.8898 cm
+Q
+q
+1 0 0 1 31 166.8898 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F3 8 Tf 9 TL 9.2 0 Td (\177) Tj T* -9.2 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 1 Tm 9 TL /F2 8 Tf 0 0 0 rg (virtual / override) Tj /F1 8 Tf (: Basis erlaubt Anpassung / Subklasse f\374hrt sie aus.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 31 160.8898 cm
+Q
+q
+1 0 0 1 31 151.8898 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F3 8 Tf 9 TL 9.2 0 Td (\177) Tj T* -9.2 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 1 Tm 9 TL /F2 8 Tf 0 0 0 rg (base) Tj /F1 8 Tf (: Ruft Logik oder Konstruktor der Elternklasse auf.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 31 145.8898 cm
+Q
+q
+1 0 0 1 31 136.8898 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F3 8 Tf 9 TL 9.2 0 Td (\177) Tj T* -9.2 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 1 Tm 9 TL /F2 8 Tf 0 0 0 rg (static) Tj /F1 8 Tf (: Geh\366rt der Klasse, existiert global nur 1x.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 31 130.8898 cm
+Q
+q
+1 0 0 1 31 121.8898 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F3 8 Tf 9 TL 9.2 0 Td (\177) Tj T* -9.2 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 1 Tm 9 TL /F2 8 Tf 0 0 0 rg (decimal) Tj /F1 8 Tf (: Pflicht f\374r Geld \(Suffix ) Tj /F3 8 Tf (m) Tj /F1 8 Tf (\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 31 115.8898 cm
+Q
+q
+1 0 0 1 31 106.8898 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F3 8 Tf 9 TL 9.2 0 Td (\177) Tj T* -9.2 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 1 Tm 9 TL /F2 8 Tf 0 0 0 rg (this) Tj /F1 8 Tf (: Bezieht sich auf das aktuelle Objekt \(vermeidet Namenskonflikte\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 31 106.8898 cm
+Q
+q
+1 0 0 1 25 20 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F1 8 Tf 9 TL 210.2378 0 Td (HF Sphinx Documentation | Seite 2) Tj T* -210.2378 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+26 0 obj
+<<
+/Nums [ 0 27 0 R 1 28 0 R ]
+>>
+endobj
+27 0 obj
+<<
+/S /D /St 1
+>>
+endobj
+28 0 obj
+<<
+/S /D /St 2
+>>
+endobj
+xref
+0 29
+0000000000 65535 f 
+0000000061 00000 n 
+0000000132 00000 n 
+0000000239 00000 n 
+0000000351 00000 n 
+0000000456 00000 n 
+0000000566 00000 n 
+0000000679 00000 n 
+0000000884 00000 n 
+0000001089 00000 n 
+0000001194 00000 n 
+0000001449 00000 n 
+0000001524 00000 n 
+0000001648 00000 n 
+0000001790 00000 n 
+0000001935 00000 n 
+0000002071 00000 n 
+0000002226 00000 n 
+0000002370 00000 n 
+0000002515 00000 n 
+0000002649 00000 n 
+0000002776 00000 n 
+0000002908 00000 n 
+0000003022 00000 n 
+0000003088 00000 n 
+0000026073 00000 n 
+0000044762 00000 n 
+0000044812 00000 n 
+0000044846 00000 n 
+trailer
+<<
+/ID 
+[<fbb5958065ceb3c117e70e716f155700><fbb5958065ceb3c117e70e716f155700>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 10 0 R
+/Root 9 0 R
+/Size 29
+>>
+startxref
+44880
+%%EOF

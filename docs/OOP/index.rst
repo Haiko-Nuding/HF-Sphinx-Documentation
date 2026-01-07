@@ -14,3 +14,4 @@ encapsulation, and abstraction, along with practical examples.
    uml_notes
    aufgabe_05_uml
    aufgabe_08_uml
+   csharp_grundlagen
