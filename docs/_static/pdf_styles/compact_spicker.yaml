@@ -1,7 +1,6 @@
 pageSetup:
   size: A4
-  # Maße ohne Einheiten-Suffix oder mit expliziter pt-Zahl
-  margin-top: 20      # rst2pdf interpretiert nackte Zahlen oft als Punkte (pt)
+  margin-top: 20
   margin-bottom: 20
   margin-left: 25
   margin-right: 25
@@ -15,19 +14,41 @@ styles:
     fontSize: 8
     leading: 9
     alignment: TA_LEFT
+    spaceBefore: 0    # Verhindert Abstände zwischen normalen Absätzen
+    spaceAfter: 2
 
   heading:
-    fontSize: 10
-    spaceBefore: 4
-    spaceAfter: 4
+    fontSize: 9       # Leicht reduziert für bessere Harmonie
+    spaceBefore: 2    # Minimaler Abstand über der Überschrift
+    spaceAfter: 0     # KEIN Abstand unter der Überschrift
     fontName: stdBold
+
+  h2:
+    parent: heading
+    fontSize: 8
+    leading: 9
+    spaceBefore: 2
+    spaceAfter: 0     # Sorgt dafür, dass die Liste direkt darunter klebt
+
+  # Kompakt-Einstellungen für Listen
+  bullet-list:
+    spaceBefore: 0
+    spaceAfter: 2
+    bulletIndent: 10
+
+  item-list:
+    spaceBefore: 0
+    spaceAfter: 2
+
+  list-item:
+    spaceBefore: 0
+    spaceAfter: 1     # Minimaler Abstand zwischen den Listenpunkten
 
   table:
     fontSize: 7
     leading: 8
     spaceBefore: 2
     spaceAfter: 2
-    # Padding-Werte müssen oft nackte Zahlen sein
     padding-left: 2
     padding-right: 2
     padding-top: 1
@@ -37,5 +58,5 @@ styles:
     fontSize: 7
     backColor: #eeeeee
     leftIndent: 0
-    spaceBefore: 4
-    spaceAfter: 4
+    spaceBefore: 2
+    spaceAfter: 2
