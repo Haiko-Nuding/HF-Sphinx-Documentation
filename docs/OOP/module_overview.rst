@@ -2,7 +2,7 @@ Module / Tasks Overview
 =======================
 
 +--------+--------------------------------+--------------------------------------------------------------------------------------+
-| Module | Topics                         | Exercises                                                                            |
+| Module | Topics                         | Exercises wiht Github Project Link                                                   |
 +========+================================+======================================================================================+
 | AB00   | Procedural Programming, Data   | `Exercise 1 <https://github.com/Haiko-Nuding/OOP-Sem-2/tree/main/Aufgabe-01>`_,      |
 |        | Structures                     | `Exercise 2 <https://github.com/Haiko-Nuding/OOP-Sem-2/tree/main/Aufgabe-02>`_,      |
@@ -29,3 +29,12 @@ Module / Tasks Overview
 | AB05   | Polymorphie, Keywords,         | `Exercise 18 <https://github.com/Haiko-Nuding/OOP-Sem-2/tree/main/Aufgabe-18>`_,     |
 |        | Sichtbarkeit,                  | `Exercise 19 <https://github.com/Haiko-Nuding/OOP-Sem-2/tree/main/Aufgabe-19>`_,     |
 +--------+--------------------------------+--------------------------------------------------------------------------------------+
+
+Bonus / Preperation Test Solved
+===============================
+
++-------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+
+| UbungsTest Aufgaben                                               | Exercises with GitHub Project Link                                                                 |
++===================================================================+====================================================================================================+
+| Aufgabe 1 – Geräte als Datenklassen (POCOs + Vererbung + 2 Enums) | `GitHub Link Aufgabe 1 <https://github.com/Haiko-Nuding/OOP-Sem-2/tree/main/UbeungsTestGeloest>`_  |
++-------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+
