@@ -3,7 +3,7 @@
             :alt: TofuBox Logo
 
 |logo| TofuBox - Technische Dokumentation
-=========================================================
+=========================================
 
 .. meta::
    :description: Technische Dokumentation für das TofuBox HomeLab Projekt
@@ -31,7 +31,7 @@
    * **Passwort:** ``sml12345``
 
 Projektstruktur & Architektur
-==============================
+-----------------------------
 
 Das Projekt ist in logische Stacks unterteilt, um die Wartung und Skalierbarkeit zu erhöhen.
 
@@ -54,7 +54,7 @@ Das Projekt ist in logische Stacks unterteilt, um die Wartung und Skalierbarkeit
    └── README.md
 
 Analyse der Schlüssel-Konfigurationen
--------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Die folgenden Dateien sind entscheidend für die Funktionalität des Systems:
 
@@ -70,15 +70,15 @@ Die folgenden Dateien sind entscheidend für die Funktionalität des Systems:
    PageBreak
 
 Anleitung: Media-Stack Setup
-=============================
+----------------------------
 
 System-Voraussetzungen & Vorbereitung
-======================================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Bevor Sie mit dem Deployment des Homelabs beginnen, muss das System vorbereitet und die Installation von Docker verifiziert werden.
 
 1. Bereinigung der Umgebung (Cleanup)
--------------------------------------
+"""""""""""""""""""""""""""""""""""""
 
 Um eine "saubere" Installation zu gewährleisten und Konflikte mit alten Konfigurationen zu vermeiden, sollten alle bestehenden Docker-Ressourcen entfernt werden.
 
@@ -94,7 +94,7 @@ Um eine "saubere" Installation zu gewährleisten und Konflikte mit alten Konfigu
    docker system prune -a --volumes -f
 
 2. System-Voraussetzungen prüfen
---------------------------------
+""""""""""""""""""""""""""""""""
 
 Stellen Sie sicher, dass Docker und das Docker-Compose Plugin auf dem Host-System (Kali Linux VM) installiert sind und ordnungsgemäß funktionieren.
 
@@ -110,7 +110,8 @@ Stellen Sie sicher, dass Docker und das Docker-Compose Plugin auf dem Host-Syste
    sudo systemctl status docker
 
 3. Repository-Download
------------------------
+""""""""""""""""""""""
+
 Klonen Sie das Projekt-Repository auf Ihren lokalen Server:
 
 .. code-block:: bash
@@ -118,7 +119,7 @@ Klonen Sie das Projekt-Repository auf Ihren lokalen Server:
    git clone git@github.com:lorisleuenberger/homelab.git
 
 4. Verzeichnis wechseln & Umgebungsvariablen erstellen
--------------------------------------------------------
+""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Navigieren Sie in den Media-Ordner, kopieren Sie das Template und erstellen Sie die produktive Konfigurationsdatei:
 
 .. code-block:: bash
@@ -127,7 +128,7 @@ Navigieren Sie in den Media-Ordner, kopieren Sie das Template und erstellen Sie 
    cp .env.example .env
 
 5. Konfiguration der .env Datei
---------------------------------
+"""""""""""""""""""""""""""""""
 Öffnen Sie die Datei ``.env`` und tragen Sie Ihre Daten ein.
 
 .. code-block:: text
@@ -141,7 +142,7 @@ Navigieren Sie in den Media-Ordner, kopieren Sie das Template und erstellen Sie 
    * Nutzen Sie als **MEDIA_FOLDER** den Pfad ``/srv/media``.
 
 6. Erstellung der Speicherstruktur & Rechte
--------------------------------------------
+"""""""""""""""""""""""""""""""""""""""""""
 Erstellen Sie das Basisverzeichnis inklusive der notwendigen Unterstrukturen für Downloads, Filme und Serien und setzen Sie die Berechtigungen rekursiv:
 
 .. code-block:: bash
@@ -154,7 +155,7 @@ Erstellen Sie das Basisverzeichnis inklusive der notwendigen Unterstrukturen fü
    sudo chmod -R 775 /srv/media
 
 7. Deployment des Media-Stacks
--------------------------------
+""""""""""""""""""""""""""""""
 Starten Sie die Container-Infrastruktur im Hintergrund:
 
 .. code-block:: bash
@@ -163,7 +164,7 @@ Starten Sie die Container-Infrastruktur im Hintergrund:
    sudo docker-compose up -d
 
 8. Verifizierung der VPN-Verbindung
-------------------------------------
+"""""""""""""""""""""""""""""""""""
 Überprüfen Sie die Logs des **Gluetun**-Containers. Dieser dient als Gateway für alle anderen Dienste.
 
 .. code-block:: bash
@@ -171,7 +172,7 @@ Starten Sie die Container-Infrastruktur im Hintergrund:
    sudo docker-compose logs -f gluetun
 
 9. Übersicht der Media-Container
----------------------------------
+""""""""""""""""""""""""""""""""
 
 +---------------+---------------+------------------------------------+-------------------------------------------------------------+
 | Service       | Standard-Port | Zugriff (Browser/LAN)              | Funktion / Beschreibung                                     |
@@ -195,7 +196,8 @@ Starten Sie die Container-Infrastruktur im Hintergrund:
 +---------------+---------------+------------------------------------+-------------------------------------------------------------+
 
 10. qBittorrent WebUI Konfiguration
------------------------------------
+"""""""""""""""""""""""""""""""""""
+
 Um Zugriff auf die Benutzeroberfläche zu erhalten, muss zunächst das automatisch generierte Passwort ausgelesen werden:
 
 .. code-block:: bash
@@ -222,7 +224,8 @@ Um Zugriff auf die Benutzeroberfläche zu erhalten, muss zunächst das automatis
    PageBreak
 
 11. Konfiguration von Radarr & Sonarr (Download-Client)
--------------------------------------------------------
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 Damit Radarr und Sonarr wissen, wie sie Filme und Serien herunterladen sollen, muss qBittorrent als Download-Client verknüpft werden.
 
 **Schritte für beide Applikationen:**
@@ -260,7 +263,8 @@ Damit Radarr und Sonarr wissen, wie sie Filme und Serien herunterladen sollen, m
    Die obigen Screenshots zeigen die identische Konfiguration für beide Dienste. Achten Sie darauf, den Test-Button zu klicken, um die Verbindung zu verifizieren.
 
 12. Optionale Konfiguration: Automatisierte Dateibenennung (Sonarr & Radarr)
-----------------------------------------------------------------------------
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 Um eine saubere und einheitliche Struktur in Ihrer Medienbibliothek zu gewährleisten, kann sowohl in Sonarr als auch in Radarr die automatisierte Umbenennung von Dateien aktiviert werden. Dies verhindert kryptische Dateinamen und erleichtert das Scannen durch Jellyfin.
 
 **Konfigurationsschritte für beide Dienste:**
@@ -292,7 +296,8 @@ Um eine saubere und einheitliche Struktur in Ihrer Medienbibliothek zu gewährle
 
 
 13. Prowlarr: Indexer-Zentrale & API-Synchronisation
-----------------------------------------------------
+""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 Prowlarr dient als zentrale Verwaltung für Indexer. Damit die gefundenen Tracker automatisch an Radarr und Sonarr verteilt werden, müssen diese Apps über API-Keys mit Prowlarr verbunden werden.
 
 **Schritt A: API-Key auslesen (Sonarr & Radarr)**
@@ -380,7 +385,7 @@ Stellen Sie sicher, dass der Zugriff innerhalb des lokalen Netzwerks nicht block
    PageBreak
 
 14. Indexer-Konfiguration in Prowlarr
--------------------------------------
+"""""""""""""""""""""""""""""""""""""
 Nachdem die Applikationen (Radarr/Sonarr) verbunden sind, müssen die eigentlichen Datenquellen – die Indexer – hinzugefügt werden. Prowlarr fungiert hier als Proxy, der die Suchanfragen an die verschiedenen Tracker weiterleitet.
 
 **Übersicht der verwendeten Indexer:**
@@ -420,7 +425,8 @@ Nachdem Sie BitSearch, EZTV, LimeTorrents und The Pirate Bay hinzugefügt haben,
 
 
 15. Erster Funktions-Test: Validierung der Automatisierung
------------------------------------------------------------
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 Nach Abschluss der Konfiguration wird die gesamte Kette – von der Suche über den Download via VPN bis zum Import – validiert. Hierfür nutzen wir die Filmverwaltung (**Radarr**).
 
 **Schritt A: Hinzufügen von Test-Medien**
@@ -470,7 +476,8 @@ Wechseln Sie in den Bereich **Activity**, um den Status der Downloads in Echtzei
    PageBreak
 
 16. Jellyfin: Mediatheken & TofuBox Branding
---------------------------------------------
+""""""""""""""""""""""""""""""""""""""""""""
+
 Nachdem die Test-Downloads abgeschlossen sind, werden diese in der Streaming-Zentrale (Jellyfin) verfügbar gemacht und das System optisch an das Projektdesign angepasst.
 
 **Schritt A: Mediatheken für Filme und Serien einrichten**
@@ -585,10 +592,11 @@ Nach dem Speichern erstrahlt die TofuBox-Oberfläche im neuen Design. Alle impor
    PageBreak
 
 Anleitung: Monitoring & Logging
-================================
+-------------------------------
 
 1. Start des Monitoring-Stacks
--------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Navigieren Sie in den entsprechenden Ordner und starten Sie die Dienste:
 
 .. code-block:: bash
@@ -597,7 +605,8 @@ Navigieren Sie in den entsprechenden Ordner und starten Sie die Dienste:
    sudo docker-compose up -d
 
 2. Übersicht der Monitoring-Dienste
-------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 
 +-----------------+---------------+-----------------------------+---------------------------------------------------------------+
 | Service         | Standard-Port | Zugriff (Browser/LAN)       | Funktion / Beschreibung                                       |
@@ -610,7 +619,8 @@ Navigieren Sie in den entsprechenden Ordner und starten Sie die Dienste:
 +-----------------+---------------+-----------------------------+---------------------------------------------------------------+
 
 3. Validierung der Prometheus-Targets
---------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Bevor Dashboards erstellt werden können, muss sichergestellt sein, dass die Datenquellen (Targets) aktiv sind. Prüfen Sie unter http://192.168.110.60:9090 im Menü **Status -> Targets**, ob die Endpunkte auf **UP** stehen.
 
 .. figure:: ../_static/img/tofubox/Prometheus_Targets_UP.PNG
@@ -621,7 +631,7 @@ Bevor Dashboards erstellt werden können, muss sichergestellt sein, dass die Dat
    Monitoring Testing - Die Endpunkte node-exporter und prometheus sind erfolgreich verbunden (Status UP).
 
 4. Grafana Konfiguration & Dashboard Import
---------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Schritt A: Prometheus als Datenquelle hinzufügen**
 Damit Grafana Daten anzeigen kann, muss Prometheus als "Data Source" registriert werden.
