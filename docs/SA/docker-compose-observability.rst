@@ -219,9 +219,9 @@ Summary of Learning Path
 +------------------+-----------------------+---------------------------------------+
 | Tool             | Best For              | Docker Skill Learned                  |
 +==================+=======================+=======================================+
-| **Prometheus** | Numbers/Metrics       | Target Scraping & Config Mounting       |
+| **Prometheus**   | Numbers/Metrics       | Target Scraping & Config Mounting     |
 +------------------+-----------------------+---------------------------------------+
-| **Mattermost** | Alerts/Chat           | Webhooks & External API links           |
+| **Mattermost**   | Alerts/Chat           | Webhooks & External API links         |
 +------------------+-----------------------+---------------------------------------+
-| **ELK Stack** | Text/Error Logs       | Resource Limits (RAM/Java Opts)          |
+| **ELK Stack**    | Text/Error Logs       | Resource Limits (RAM/Java Opts)       |
 +------------------+-----------------------+---------------------------------------+
