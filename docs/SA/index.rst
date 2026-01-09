@@ -9,6 +9,7 @@ This section covers fundamental concepts and practices for managing systems, use
    :titlesonly:
 
    docker
-   docker_compose
    docker_cheat_sheet
+   docker_compose
+   docker_compose_cheat_sheet_comand_list
    tofubox_project
