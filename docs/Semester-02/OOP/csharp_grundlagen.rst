@@ -4,7 +4,7 @@ C# Profi-Spicker: OO-Design, Logik & Prüfungsvorbereitung
 
 .. only:: html
 
-    :download:`Download PDF: C# Test Spicker 2 <../_static/pdf/c#_spicker_test_2.pdf>`
+    :download:`Download PDF: C# Test Spicker 2 <../../_static/pdf/c#_spicker_test_2.pdf>`
 
 .. rst-class:: small
 

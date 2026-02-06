@@ -13,9 +13,8 @@ that make up this documentation set.
    :maxdepth: 2
    :caption: Main Topics
 
-   SA/index
-   NB/index
-   OOP/index
+   Semester-02/index
+   Semester-03/index
 
 .. toctree::
    :maxdepth: 2

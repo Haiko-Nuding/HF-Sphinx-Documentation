@@ -1,4 +1,4 @@
-.. |logo| image:: ../_static/img/TofuBox_out.png
+.. |logo| image:: ../../_static/img/TofuBox_out.png
             :width: 40
             :alt: TofuBox Logo
 
@@ -16,7 +16,7 @@
 
 .. only:: html
 
-    :download:`Download TofuBox - Technische Dokumentation <../_static/pdf/tofu_box_technische_documentation.pdf>`
+    :download:`Download TofuBox - Technische Dokumentation <../../_static/pdf/tofu_box_technische_documentation.pdf>`
 
 
 .. raw:: pdf
@@ -212,7 +212,7 @@ Um Zugriff auf die Benutzeroberfläche zu erhalten, muss zunächst das automatis
 .. important::
    Dieser Bypass ist essenziell, damit **Gluetun** die Port-Forwarding-Regeln automatisch an qBittorrent übermitteln kann, ohne an der Authentifizierung zu scheitern.
 
-.. figure:: ..//_static/img/tofubox/TofuBox_qBittorrent_WebUI_Konfiguration.PNG
+.. figure:: ../../_static/img/tofubox/TofuBox_qBittorrent_WebUI_Konfiguration.PNG
    :alt: Screenshot der qBittorrent WebUI Einstellungen für Authentifizierung und Bypass
    :align: center
    :width: 100%
@@ -245,14 +245,14 @@ Damit Radarr und Sonarr wissen, wie sie Filme und Serien herunterladen sollen, m
    :widths: 50 50
    :align: center
 
-   * - .. figure:: ../_static/img/tofubox/TofuBox_qBittorrent_RADARR_Konfiguration.PNG
+   * - .. figure:: ../../_static/img/tofubox/TofuBox_qBittorrent_RADARR_Konfiguration.PNG
           :alt: qBittorrent Konfiguration in Radarr
           :align: center
           :width: 100%
 
           **Konfiguration in Radarr:** Anbindung von qBittorrent als primärer Download-Client.
 
-     - .. figure:: ../_static/img/tofubox/TofuBox_qBittorrent_SONARR_Konfiguration.PNG
+     - .. figure:: ../../_static/img/tofubox/TofuBox_qBittorrent_SONARR_Konfiguration.PNG
           :alt: qBittorrent Konfiguration in Sonarr
           :align: center
           :width: 100%
@@ -277,14 +277,14 @@ Um eine saubere und einheitliche Struktur in Ihrer Medienbibliothek zu gewährle
    :widths: 50 50
    :align: center
 
-   * - .. figure:: ../_static/img/tofubox/TofuBox_SONARR_Media_Management.PNG
+   * - .. figure:: ../../_static/img/tofubox/TofuBox_SONARR_Media_Management.PNG
           :alt: Media Management in Sonarr
           :align: center
           :width: 100%
 
           **Konfiguration in Sonarr:** Aktivierung des Episode Namings für Serien.
 
-     - .. figure:: ../_static/img/tofubox/TofuBox_RADARR_Media_Management.PNG
+     - .. figure:: ../../_static/img/tofubox/TofuBox_RADARR_Media_Management.PNG
           :alt: Media Management in Radarr
           :align: center
           :width: 100%
@@ -311,14 +311,14 @@ Zuerst muss der eindeutige Identifikationsschlüssel in beiden Ziel-Apps kopiert
    :widths: 50 50
    :align: center
 
-   * - .. figure:: ../_static/img/tofubox/TofuBox_SONARR_API_Key.PNG
+   * - .. figure:: ../../_static/img/tofubox/TofuBox_SONARR_API_Key.PNG
           :alt: API Key in Sonarr finden
           :align: center
           :width: 100%
 
           **API Key in Sonarr:** Zu finden unter Settings -> General.
 
-     - .. figure:: ../_static/img/tofubox/TofuBox_RADARR_API_Key.PNG
+     - .. figure:: ../../_static/img/tofubox/TofuBox_RADARR_API_Key.PNG
           :alt: API Key in Radarr finden
           :align: center
           :width: 100%
@@ -340,14 +340,14 @@ Wechseln Sie zur Prowlarr-Oberfläche (Port 9696), um die Verbindung herzustelle
    :widths: 50 50
    :align: center
 
-   * - .. figure:: ../_static/img/tofubox/Prowlarr_Add_App_Radarr.PNG
+   * - .. figure:: ../../_static/img/tofubox/Prowlarr_Add_App_Radarr.PNG
           :alt: Hinzufügen von Radarr in Prowlarr
           :align: center
           :width: 100%
 
           **Verknüpfung Radarr:** Anbindung der Film-Datenbank.
 
-     - .. figure:: ../_static/img/tofubox/Prowlarr_Add_App_Sonarr.PNG
+     - .. figure:: ../../_static/img/tofubox/Prowlarr_Add_App_Sonarr.PNG
           :alt: Hinzufügen von Sonarr in Prowlarr
           :align: center
           :width: 100%
@@ -361,7 +361,7 @@ Wechseln Sie zur Prowlarr-Oberfläche (Port 9696), um die Verbindung herzustelle
 **Schritt C: Überprüfung der erfolgreichen Synchronisation**
 Nachdem beide Applikationen hinzugefügt wurden, sollten diese in der App-Übersicht von Prowlarr mit dem Status **Full Sync** erscheinen. Dies bestätigt, dass Prowlarr nun Indexer-Daten an beide Dienste pushen kann.
 
-.. figure:: ../_static/img/tofubox/Prowlarr_Sync_Overview.PNG
+.. figure:: ../../_static/img/tofubox/Prowlarr_Sync_Overview.PNG
    :alt: Übersicht der verbundenen Apps in Prowlarr
    :align: center
    :width: 80%
@@ -373,7 +373,7 @@ Stellen Sie sicher, dass der Zugriff innerhalb des lokalen Netzwerks nicht block
 
 * In den Prowlarr-Einstellungen unter **General** sollte die **Authentication** für lokale Adressen auf ``Disabled for Local Addresses`` gesetzt werden.
 
-.. figure:: ../_static/img/tofubox/Prowlarr_Auth_Setup.PNG
+.. figure:: ../../_static/img/tofubox/Prowlarr_Auth_Setup.PNG
    :alt: Prowlarr Authentifizierungs-Einstellungen
    :align: center
    :width: 70%
@@ -403,7 +403,7 @@ Der Vorgang ist für alle Indexer identisch. Hier am Beispiel von EZTV:
 * In der Regel können die Standardeinstellungen beibehalten werden.
 * Klicken Sie auf den **Test-Button** (Häkchen), um die Erreichbarkeit zu prüfen, und dann auf **Save**.
 
-.. figure:: ../_static/img/tofubox/Prowlarr_Add_Indexer_EZTV.PNG
+.. figure:: ../../_static/img/tofubox/Prowlarr_Add_Indexer_EZTV.PNG
    :alt: Hinzufügen des Indexers EZTV in Prowlarr
    :align: center
    :width: 80%
@@ -413,7 +413,7 @@ Der Vorgang ist für alle Indexer identisch. Hier am Beispiel von EZTV:
 **Schritt B: Übersicht der aktiven Indexer**
 Nachdem Sie BitSearch, EZTV, LimeTorrents und The Pirate Bay hinzugefügt haben, sollten alle Tracker in der Hauptübersicht mit einem grünen Status-Symbol erscheinen.
 
-.. figure:: ../_static/img/tofubox/Prowlarr_Indexers_Overview.PNG
+.. figure:: ../../_static/img/tofubox/Prowlarr_Indexers_Overview.PNG
    :alt: Übersicht aller aktiven Indexer in Prowlarr
    :align: center
    :width: 100%
@@ -441,14 +441,14 @@ Suchen Sie in der Radarr-WebUI nach Test-Titeln (z. B. Klassiker oder aktuelle P
    :widths: 50 50
    :align: center
 
-   * - .. figure:: ../_static/img/tofubox/Radarr_Test_Download_Film1.PNG
+   * - .. figure:: ../../_static/img/tofubox/Radarr_Test_Download_Film1.PNG
           :alt: Hinzufügen von Film 1 in Radarr
           :align: center
           :width: 100%
 
           **Testlauf 1:** Initiierung des Suchvorgangs für das erste Test-Medium.
 
-     - .. figure:: ../_static/img/tofubox/Radarr_Test_Download_Film2.PNG
+     - .. figure:: ../../_static/img/tofubox/Radarr_Test_Download_Film2.PNG
           :alt: Hinzufügen von Film 2 in Radarr
           :align: center
           :width: 100%
@@ -461,7 +461,7 @@ Wechseln Sie in den Bereich **Activity**, um den Status der Downloads in Echtzei
 * In der Übersicht erscheinen beide Titel mit ihrem aktuellen Fortschritt.
 * Sobald der Download abgeschlossen ist, verschiebt Radarr die Dateien automatisch vom Download-Ordner in den finalen Medien-Ordner (``/srv/media/movies``) und benennt sie nach definierten Schema um.
 
-.. figure:: ../_static/img/tofubox/Radarr_Activity_Success.PNG
+.. figure:: ../../_static/img/tofubox/Radarr_Activity_Success.PNG
    :alt: Erfolgreiche Download-Aktivität in Radarr
    :align: center
    :width: 85%
@@ -486,7 +486,7 @@ Loggen Sie sich in Jellyfin ein (Standard: ``admin`` / ``sml12345``) und navigie
 * Erstellen Sie eine Mediathek für **Filme** mit dem Pfad ``/data/movies``.
 * Erstellen Sie eine zweite Mediathek für **Serien** mit dem Pfad ``/data/series``.
 
-.. figure:: ../_static/img/tofubox/Jellyfin_Add_Library_Movies.PNG
+.. figure:: ../../_static/img/tofubox/Jellyfin_Add_Library_Movies.PNG
    :alt: Einrichtung der Film-Bibliothek in Jellyfin
    :align: center
    :width: 80%
@@ -496,12 +496,12 @@ Loggen Sie sich in Jellyfin ein (Standard: ``admin`` / ``sml12345``) und navigie
 **Schritt B: TofuBox Logo & Branding**
 Das offizielle Projekt-Logo kann unter folgendem Link heruntergeladen werden:
 
-:download:`Download TofuBox Logo <../_static/img/resized_16x9_image_TofuBox_out.png>`
+:download:`Download TofuBox Logo <../../_static/img/resized_16x9_image_TofuBox_out.png>`
 
 * Navigieren Sie zu **Dashboard -> Branding**.
 * Laden Sie das Logo hoch und aktivieren Sie die Option **Enable the splash screen image**.
 
-.. figure:: ../_static/img/tofubox/Jellyfin_Branding_Upload.PNG
+.. figure:: ../../_static/img/tofubox/Jellyfin_Branding_Upload.PNG
    :alt: Upload des TofuBox Logos
    :align: center
    :width: 80%
@@ -580,7 +580,7 @@ Hinterlegen Sie den folgenden Code unter **Dashboard -> Allgemein -> Benutzerdef
 **Schritt D: Abschlusskontrolle**
 Nach dem Speichern erstrahlt die TofuBox-Oberfläche im neuen Design. Alle importierten Filme und Serien werden nun übersichtlich mit Covern und Metadaten angezeigt.
 
-.. figure:: ../_static/img/tofubox/Jellyfin_Final_Result.PNG
+.. figure:: ../../_static/img/tofubox/Jellyfin_Final_Result.PNG
    :alt: Finales Resultat der Jellyfin Oberfläche
    :align: center
    :width: 100%
@@ -623,7 +623,7 @@ Navigieren Sie in den entsprechenden Ordner und starten Sie die Dienste:
 
 Bevor Dashboards erstellt werden können, muss sichergestellt sein, dass die Datenquellen (Targets) aktiv sind. Prüfen Sie unter http://192.168.110.60:9090 im Menü **Status -> Targets**, ob die Endpunkte auf **UP** stehen.
 
-.. figure:: ../_static/img/tofubox/Prometheus_Targets_UP.PNG
+.. figure:: ../../_static/img/tofubox/Prometheus_Targets_UP.PNG
    :alt: Prometheus Targets Status
    :align: center
    :width: 100%
@@ -640,14 +640,14 @@ Damit Grafana Daten anzeigen kann, muss Prometheus als "Data Source" registriert
    :widths: 50 50
    :align: center
 
-   * - .. figure:: ../_static/img/tofubox/Grafana_Add_DataSource.PNG
+   * - .. figure:: ../../_static/img/tofubox/Grafana_Add_DataSource.PNG
           :alt: Grafana Data Source hinzufügen
           :align: center
           :width: 100%
 
           Auswahl "Add data source" in den Grafana Connections.
 
-     - .. figure:: ../_static/img/tofubox/Grafana_Prometheus_Config.PNG
+     - .. figure:: ../../_static/img/tofubox/Grafana_Prometheus_Config.PNG
           :alt: Prometheus Konfiguration
           :align: center
           :width: 100%
@@ -657,14 +657,14 @@ Damit Grafana Daten anzeigen kann, muss Prometheus als "Data Source" registriert
 **Schritt B: Dashboard erstellen und importieren**
 Wir nutzen das "Node Exporter Full" Dashboard, um alle Hardware-Metriken auf einen Blick zu sehen.
 
-.. figure:: ../_static/img/tofubox/Grafana_Dashboard-Erstellungs.PNG
+.. figure:: ../../_static/img/tofubox/Grafana_Dashboard-Erstellungs.PNG
    :alt: Neues Dashboard Menü
    :align: center
    :width: 100%
 
    Navigieren zum Dashboard-Erstellungs-Menü.
 
-.. figure:: ../_static/img/tofubox/Grafana_Labs_Search.PNG
+.. figure:: ../../_static/img/tofubox/Grafana_Labs_Search.PNG
    :alt: Suche auf Grafana Labs
    :align: center
    :width: 100%
@@ -678,14 +678,14 @@ Geben Sie die ID im Import-Fenster ein, um das Template zu laden.
    :widths: 50 50
    :align: center
 
-   * - .. figure:: ../_static/img/tofubox/Importieren_des_Dashboards_ID.PNG
+   * - .. figure:: ../../_static/img/tofubox/Importieren_des_Dashboards_ID.PNG
           :alt: Import via ID
           :align: center
           :width: 100%
 
           Importieren des Dashboards durch Laden der ID 1860.
 
-     - .. figure:: ../_static/img/tofubox/Finales_Monitoring_Resultat.PNG
+     - .. figure:: ../../_static/img/tofubox/Finales_Monitoring_Resultat.PNG
           :alt: Finales Monitoring Resultat
           :align: center
           :width: 100%
