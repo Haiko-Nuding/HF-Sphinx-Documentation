@@ -126,7 +126,7 @@ Input, Menü & Datum (Prüfungsklassiker) | TryParse / DateTime
    TimeSpan diff = DateTime.Now - new DateTime(2025,1,1); int tage = diff.Days; // Tage Unterschied
 
    List<int> zahlen = new List<int>{1,2,3,4,5,6}; var gerade = zahlen.Where(z=>z%2==0).ToList(); // Gerade Zahlen
-   List<string> words = new List<string>{"Haus","Auto","Baum","Straße"}; var kurz = words.Where(w=>w.Length<=4); // Wörter <=4 Buchstaben
+   List<string> words = new List<string>{"Haus","Auto","Baum","Strasse"}; var kurz = words.Where(w=>w.Length<=4); // Wörter <=4 Buchstaben
 
 
 

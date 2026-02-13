@@ -96,7 +96,7 @@ Um eine "saubere" Installation zu gewährleisten und Konflikte mit alten Konfigu
 2. System-Voraussetzungen prüfen
 """"""""""""""""""""""""""""""""
 
-Stellen Sie sicher, dass Docker und das Docker-Compose Plugin auf dem Host-System (Kali Linux VM) installiert sind und ordnungsgemäß funktionieren.
+Stellen Sie sicher, dass Docker und das Docker-Compose Plugin auf dem Host-System (Kali Linux VM) installiert sind und ordnungsgemäss funktionieren.
 
 .. code-block:: bash
 
@@ -204,7 +204,7 @@ Um Zugriff auf die Benutzeroberfläche zu erhalten, muss zunächst das automatis
 
    sudo docker-compose logs qbittorrent | grep "WebUI administrator"
 
-**Anschließend sind folgende Schritte in der WebUI (Port 8080) zwingend erforderlich:**
+**Anschliessend sind folgende Schritte in der WebUI (Port 8080) zwingend erforderlich:**
 
 1. **Passwort ändern:** Navigieren Sie zu *Tools -> Options -> WebUI* und setzen Sie das Passwort auf das Projekt-Standardpasswort ``sml12345``.
 2. **Localhost-Bypass:** Aktivieren Sie in den gleichen Einstellungen die Option **"Bypass authentication for clients on localhost"**.
@@ -393,7 +393,7 @@ Nachdem die Applikationen (Radarr/Sonarr) verbunden sind, müssen die eigentlich
 * **BitSearch:** Ein moderner, breit gefächerter Indexer mit einer riesigen Datenbank für alle Arten von Content.
 * **EZTV:** Spezialisiert auf TV-Serien; die erste Wahl für automatisierte Serien-Downloads in Sonarr.
 * **LimeTorrents:** Ein bewährter All-In-One Tracker, der für seine hohe Verifizierungsrate bekannt ist.
-* **The Pirate Bay:** Einer der weltweit größten und bekanntesten Indexer für Filme, Serien und Software.
+* **The Pirate Bay:** Einer der weltweit grössten und bekanntesten Indexer für Filme, Serien und Software.
 
 **Schritt A: Einen Indexer hinzufügen (Beispiel EZTV)**
 Der Vorgang ist für alle Indexer identisch. Hier am Beispiel von EZTV:
@@ -430,7 +430,7 @@ Nachdem Sie BitSearch, EZTV, LimeTorrents und The Pirate Bay hinzugefügt haben,
 Nach Abschluss der Konfiguration wird die gesamte Kette – von der Suche über den Download via VPN bis zum Import – validiert. Hierfür nutzen wir die Filmverwaltung (**Radarr**).
 
 **Schritt A: Hinzufügen von Test-Medien**
-Suchen Sie in der Radarr-WebUI nach Test-Titeln (z. B. Klassiker oder aktuelle Produktionen), um den Prozess anzustoßen.
+Suchen Sie in der Radarr-WebUI nach Test-Titeln (z. B. Klassiker oder aktuelle Produktionen), um den Prozess anzustossen.
 
 * Klicken Sie auf **Movies -> Add New**.
 * Suchen Sie nach einem gewünschten Medium (Beispiel 1: Ein Cyberpunk-Klassiker).
@@ -469,7 +469,7 @@ Wechseln Sie in den Bereich **Activity**, um den Status der Downloads in Echtzei
    **Erfolgskontrolle:** Die Activity-Ansicht bestätigt den parallelen Download beider Medien über die gesicherte Verbindung.
 
 .. note::
-   **Rechtlicher Hinweis:** Dieser Test dient ausschließlich der technischen Validierung der Infrastruktur unter Verwendung von Beispieldaten. Der Betreiber ist selbst für die Einhaltung der geltenden Urheberrechtsbestimmungen verantwortlich.
+   **Rechtlicher Hinweis:** Dieser Test dient ausschliesslich der technischen Validierung der Infrastruktur unter Verwendung von Beispieldaten. Der Betreiber ist selbst für die Einhaltung der geltenden Urheberrechtsbestimmungen verantwortlich.
 
 .. raw:: pdf
 
