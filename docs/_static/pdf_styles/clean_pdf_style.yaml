@@ -1,0 +1,121 @@
+pageSetup:
+  size: A4
+  margin-top: 1.5cm
+  # margin-bottom verkleinert, damit der Footer näher an die Kante rückt
+  margin-bottom: 1.0cm
+  margin-left: 2.5cm
+  margin-right: 2.5cm
+  margin-gutter: 0
+  spacing-header: 8
+  # spacing-footer reduziert den Abstand zwischen Textende und Footer
+  spacing-footer: 5
+  firstPageTemplate: cutePage
+
+fontsAlias:
+  stdFont: Helvetica
+  stdBold: Helvetica-Bold
+  stdItalic: Helvetica-Oblique
+  stdMono: Helvetica-Bold
+
+styles:
+  base:
+    fontSize: 10
+    leading: 13
+    alignment: TA_JUSTIFY
+    hyphenation: true
+    textColor: "#2d3436"
+
+  header:
+    parent: base
+    fontSize: 8
+    leading: 10
+    textColor: "#636e72"
+    alignment: TA_RIGHT
+    spaceBefore: 0
+    spaceAfter: 0
+
+  # --- FOOTER MINIMALISMUS ---
+  footer:
+    parent: base
+    fontSize: 8
+    # leading: 8 zwingt rst2pdf, die Zeilenbox extrem flach zu halten
+    leading: 8
+    textColor: "#636e72"
+    alignment: TA_CENTER
+    # Radikaler Verzicht auf jegliche Abstände innerhalb des Styles
+    spaceBefore: 0
+    spaceAfter: 0
+    padding: 0
+
+  # Restliche Styles zur Sicherheit beibehalten
+  code:
+    parent: base
+    fontName: stdFont
+    fontSize: 9
+    leading: 11
+    backColor: "#f1f2f6"
+    borderColor: "#bdc3c7"
+    borderWidth: 0.5
+    leftIndent: 12
+    rightIndent: 12
+    padding: 10
+    spaceBefore: 12
+    spaceAfter: 12
+
+  highlight:
+    parent: base
+    backColor: "#feca57"
+    fontName: stdBold
+
+  alert:
+    parent: base
+    textColor: "white"
+    backColor: "#eb4d4b"
+    fontName: stdBold
+    padding: 3
+
+  heading:
+    parent: base
+    fontName: stdBold
+    textColor: "#2c3e50"
+    alignment: TA_LEFT
+    spaceBefore: 20
+    spaceAfter: 10
+
+  h1:
+    parent: heading
+    fontSize: 18
+    borderBottomWidth: 1.5
+    borderColor: "#2c3e50"
+    spaceBefore: 30
+    breakBefore: page
+
+  h2:
+    parent: heading
+    fontSize: 14
+    textColor: "#2980b9"
+
+  table:
+    parent: base
+    fontSize: 9
+    alignment: TA_LEFT
+    commands:
+      - [VALIGN, [0, 0], [-1, -1], TOP]
+      - [ROWBACKGROUNDS, [0, 0], [-1, -1], ["#ffffff", "#f8f9fa"]]
+      - [INNERGRID, [0, 0], [-1, -1], 0.5, "#dfe6e9"]
+      - [BOX, [0, 0], [-1, -1], 0.5, "#b2bec3"]
+
+  table-heading:
+    parent: table
+    fontName: stdBold
+    backColor: "#2c3e50"
+    textColor: "#ffffff"
+
+  admonition:
+    parent: base
+    backColor: "#ecf0f1"
+    borderLeftWidth: 5
+    borderLeftColor: "#2980b9"
+    padding: 12
+    spaceBefore: 15
+    spaceAfter: 15

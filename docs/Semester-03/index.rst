@@ -11,3 +11,4 @@ Diese Sammlung umfasst alle wichtigen Unterlagen, Übungen und Mitschriften der 
    CYS1/index
    MSAI/index.rst
    PMM-ISM/index.rst
+   PSA/index.rst
