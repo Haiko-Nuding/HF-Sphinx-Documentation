@@ -1,6 +1,6 @@
-=====================================================
-Arbeitsblatt: Vorbereitung der Lernumgebung (Ansible)
-=====================================================
+=======================================
+Vorbereitung der Lernumgebung (Ansible)
+=======================================
 
 Einleitung: Der Sinn der Automatisierung
 ----------------------------------------
