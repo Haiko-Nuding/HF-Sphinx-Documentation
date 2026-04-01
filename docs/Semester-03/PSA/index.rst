@@ -16,9 +16,10 @@ für die Koordination aller Aufgaben:
 * **Zentrale Repository-Übersicht:** `HF-Python-Scripting-Automation <https://github.com/orgs/HF-Python-Scripting-Automation/repositories>`_
 
 Hier finden sich unter anderem:
-* .github: Zentrale Profil- und Organisationskonfiguration.
-* socket_com: Implementierungen für die Netzwerk-Kommunikation (Woche 2).
-* psa-utils: Hilfswerkzeuge und Skripte für das Modul.
+
+* ``.github``: Zentrale Profil- und Organisationskonfiguration.
+* ``socket_com``: Implementierungen für die Netzwerk-Kommunikation (Woche 2).
+* ``psa-utils``: Hilfswerkzeuge und Skripte für das Modul.
 
 Alle wöchentlichen Aufträge und Projekte werden direkt aus diesen Repositories
 heraus ausgeführt und verwaltet.
