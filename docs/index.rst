@@ -15,6 +15,7 @@ that make up this documentation set.
 
    Semester-02/index
    Semester-03/index
+   Semester-04/index
    cheat_sheet/index
 
 .. toctree::
