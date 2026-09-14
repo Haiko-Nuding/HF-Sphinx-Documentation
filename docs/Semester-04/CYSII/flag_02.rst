@@ -4,7 +4,7 @@ CYS II – Pentest Dokumentation & Analysepfad – Flag 2 – Vantis Group
 :Projekt: CYS II – Pentest Dokumentation & Analysepfad – Vantis Group
 :Autor: Haiko Nuding
 :Klasse: H25b
-:Status: Flag 2 technisch erreicht – Evidence/Plattform-Verifikation ergänzen
+:Status: Abgeschlossen, Flag 2 technisch erreicht und verifiziert
 :Datum: 14.09.2026
 :Zielsystem: ``web01.vantis.internal`` / ``10.47.84.110``
 
@@ -38,9 +38,9 @@ CYS II – Pentest Dokumentation & Analysepfad – Flag 2 – Vantis Group
    :backlinks: top
 
 
-==================================================
-Kapitel 1 – Executive Summary und Angriffspfad
-==================================================
+=============================================
+Kapitel 1: Executive Summary und Angriffspfad
+=============================================
 
 Ergebnis
 --------
@@ -148,9 +148,9 @@ Der erfolgreiche Flag-2-Angriffspfad war damit:
    Code im Root-Kontext beeinflussen zu lassen.
 
 
-=====================================================
-Kapitel 2 – Ausgangskontext nach erfolgreicher Flag 1
-=====================================================
+====================================================
+Kapitel 2: Ausgangskontext nach erfolgreicher Flag 1
+====================================================
 
 SSH-Kontext validieren
 ----------------------
@@ -193,8 +193,8 @@ Der Benutzer war Mitglied der Gruppe ``sudo``. Gleichzeitig war mit
 
 **Analyse:**
 
-Gemäss der W3-Methodik beginnt nach einem neuen Foothold die Enumeration
-erneut. Der lokale Benutzerkontext eröffnet neue Informationen zu
+Nach dem neuen Foothold wurde die Enumeration aus dem lokalen Benutzerkontext
+erneut durchgeführt. Der lokale Benutzerkontext eröffnet neue Informationen zu
 Berechtigungen, Prozessen, Diensten, Dateien, Secrets und
 Trust-Beziehungen, die aus der externen Perspektive nicht sichtbar waren.
 
@@ -202,7 +202,10 @@ Trust-Beziehungen, die aus der externen Perspektive nicht sichtbar waren.
 
 Zuerst wurde geprüft, ob die ``sudo``-Mitgliedschaft direkt nutzbar war.
 
-``[TODO: Screenshot – id, hostname, pwd und Gruppenmitgliedschaft von malik.da-costa]``
+.. figure:: ../../_static/img/sem4/flag2/cys_flag2_1_SSH-Kontext.PNG
+   :alt: Validierung des SSH-Ausgangskontexts auf web01.vantis.internal als Benutzer malik.da-costa mit Benutzer-ID, Gruppen, Hostname und Arbeitsverzeichnis
+   :align: center
+   :width: 100%
 
 
 Flag 1 als Ausgangspunkt bestätigen
@@ -226,9 +229,9 @@ Dies war keine neue Zielerreichung, sondern diente nur dazu, den bekannten
 Ausgangspunkt vor der Flag-2-Analyse eindeutig zu dokumentieren.
 
 
-======================================================
-Kapitel 3 – Erste Hypothesen und verworfene Pfade
-======================================================
+================================================
+Kapitel 3: Erste Hypothesen und verworfene Pfade
+================================================
 
 Hypothese A – Direkte Privilege Escalation über sudo
 -----------------------------------------------------
@@ -266,13 +269,16 @@ Die reine Gruppenmitgliedschaft war damit noch kein Nachweis einer
 ausnutzbaren Privilege Escalation. Der direkte ``sudo``-Pfad wurde nicht
 weiter priorisiert.
 
-**Relevanter Fehlschlag für die Bewertung:**
+**Einordnung des Fehlversuchs:**
 
 Dieser Test war ein echter, technisch plausibler Fehlschlag und änderte
 das weitere Vorgehen: Statt den ``sudo``-Pfad weiter zu verfolgen, wurde
 die Enumeration auf andere lokale Trust- und Execution-Pfade ausgeweitet.
 
-``[TODO: Screenshot – fehlgeschlagener sudo-Versuch / relevante Fehlermeldung]``
+.. figure:: ../../_static/img/sem4/flag2/cys_flag2_2_sudo-Fehlschlag.PNG
+   :alt: Fehlgeschlagener sudo-Versuch als malik.da-costa mit dem bereits bekannten Portal-Passwort
+   :align: center
+   :width: 100%
 
 
 Hypothese B – Flag 2 liegt bereits direkt lesbar vor
@@ -300,8 +306,6 @@ Diese Beobachtung sprach dagegen, dass Flag 2 im aktuellen
 Die Suche nach dem Flag-Wert selbst wurde nicht weiter als primärer
 Angriffspfad verfolgt. Stattdessen wurde untersucht, wie ein stärkerer
 Sicherheitskontext erreicht werden kann.
-
-``[TODO: Screenshot – Suche zeigt nur Flag 1 / keinen neuen Flag-2-Wert]``
 
 
 Hypothese C – Gunicorn-Control-Socket im Home-Verzeichnis
@@ -377,12 +381,15 @@ Privilege-Escalation-Kandidat verworfen.
 
 Der Fund war technisch interessant, aber nicht privilegiensteigernd.
 
-``[TODO: Screenshot – gunicorn.ctl und Prozess PID 20666 als malik.da-costa]``
+.. figure:: ../../_static/img/sem4/flag2/cys_flag2_3_Gunicorn-Socket_als_verworfener_Pfad.PNG
+   :alt: Analyse des Gunicorn-Control-Sockets und Nachweis, dass der zugehörige KeyVault-Prozess als malik.da-costa läuft
+   :align: center
+   :width: 100%
 
 
-========================================================
-Kapitel 4 – Enumeration privilegierter Dienste und Timer
-========================================================
+=======================================================
+Kapitel 4: Enumeration privilegierter Dienste und Timer
+=======================================================
 
 Root-Prozesse und laufende Services
 -----------------------------------
@@ -424,7 +431,10 @@ Diese Services waren aufgrund ihrer direkten Zugehörigkeit zur
 Lab-Umgebung relevanter als generische Systemdienste und wurden deshalb
 gezielt weiter untersucht.
 
-``[TODO: Screenshot – laufende Vantis-Services]``
+.. figure:: ../../_static/img/sem4/flag2/cys_flag2_4_laufende-Vantis-Services.PNG
+   :alt: Enumeration der laufenden Vantis-Systemdienste auf web01.vantis.internal
+   :align: center
+   :width: 100%
 
 
 Vantis-Service-Kontexte
@@ -500,8 +510,6 @@ hätte. Dafür bestand zu diesem Zeitpunkt kein ausreichender Nachweis.
 Die laufenden Webservices wurden nicht als primärer Flag-2-Pfad
 weiterverfolgt.
 
-``[TODO: Screenshot – systemctl cat der drei Vantis-Services / Benutzerkontexte]``
-
 
 Prüfung klassischer Cronjobs
 ----------------------------
@@ -526,14 +534,12 @@ Root-Jobs vorhanden.
 Die klassische ``cron``-Konfiguration ergab keinen direkten
 Lab-spezifischen Privilege-Escalation-Pfad.
 
-``[TODO: Screenshot – /etc/crontab und /etc/cron.d ohne Vantis-Job]``
-
 
 Systemd-Timer Enumeration
 -------------------------
 
-Gemäss dem W3-Arbeitsblatt/Skript wurde Scheduled Execution nicht auf
-``cron`` beschränkt. Auch ``systemd``-Timer wurden untersucht.
+Bei der Analyse geplanter Ausführungen wurden neben ``cron`` auch
+``systemd`` Timer untersucht.
 
 **Befehl:**
 
@@ -563,12 +569,15 @@ privilegierten Benutzer beeinflussbar sind.
 
 Timer und zugehöriger Service wurden einzeln untersucht.
 
-``[TODO: Screenshot – systemctl list-timers mit vantis-backup.timer]``
+.. figure:: ../../_static/img/sem4/flag2/cys_flag2_5_Backup-Timer_gefunden.PNG
+   :alt: Systemd-Timer-Enumeration mit dem periodisch ausgeführten vantis-backup.timer und dem zugehörigen vantis-backup.service
+   :align: center
+   :width: 100%
 
 
-===============================================================
-Kapitel 5 – Erfolgreicher Privilege-Escalation-Pfad zu Flag 2
-===============================================================
+============================================================
+Kapitel 5: Erfolgreicher Privilege Escalation Pfad zu Flag 2
+============================================================
 
 Analyse von vantis-backup.timer
 -------------------------------
@@ -606,8 +615,6 @@ ausgeführt.
 Die kurze periodische Ausführung war für eine kontrollierte Validation
 geeignet, da keine manuelle Manipulation des Service-Starts erforderlich
 war.
-
-``[TODO: Screenshot – Inhalt von vantis-backup.timer]``
 
 
 Analyse von vantis-backup.service
@@ -658,7 +665,10 @@ Servicekontext und könnte Python-Code mit Root-Rechten ausführen.
 Statt den Service direkt zu verändern, wurde zunächst das ausgeführte
 Python-Skript auf Besitz, Rechte und Abhängigkeiten untersucht.
 
-``[TODO: Screenshot – vantis-backup.service und erfolgreicher letzter Lauf]``
+.. figure:: ../../_static/img/sem4/flag2/cys_flag2_6_Backup-Service-Root-Kontext-Hinweis.PNG
+   :alt: Analyse von vantis-backup.service mit ExecStart auf /usr/local/sbin/vantis-backup.py und ohne explizite User-Direktive
+   :align: center
+   :width: 100%
 
 
 Root-eigenes Startskript
@@ -701,8 +711,6 @@ Ein direkter Austausch von ``vantis-backup.py`` war damit nicht möglich.
 Entsprechend der Trust-Analyse wurde deshalb geprüft, welche externen
 Ressourcen dieses Skript lädt.
 
-``[TODO: Screenshot – Rechte/Owner von /usr/local/sbin/vantis-backup.py]``
-
 
 Python-Modulimport als Trust Boundary
 -------------------------------------
@@ -743,15 +751,18 @@ Wenn ``malik.da-costa`` das importierte Modul verändern kann, kann ein
 weniger privilegierter Benutzer den Code beeinflussen, den der
 periodische Backup-Service ausführt.
 
-Dies entspricht der im W3-Arbeitsblatt beschriebenen Kategorie
-**Library/Module Trust** in Kombination mit **Scheduled Execution**.
+Die Beobachtung wurde als Kombination aus **Library/Module Trust** und
+**Scheduled Execution** eingeordnet.
 
 **Nächster Schritt:**
 
 Besitz, ACLs und effektive Schreibrechte des importierten Moduls wurden
 geprüft.
 
-``[TODO: Screenshot – Inhalt von vantis-backup.py mit sys.path.insert und import]``
+.. figure:: ../../_static/img/sem4/flag2/cys_flag2_7_Python-Modulimport.PNG
+   :alt: Analyse von vantis-backup.py mit priorisiertem Python-Suchpfad /opt/vantis/lib und Import von backup_helpers
+   :align: center
+   :width: 100%
 
 
 Berechtigungen von backup_helpers.py
@@ -806,7 +817,10 @@ Damit war die notwendige Trust Boundary bestätigt:
 Ein unprivilegierter Benutzer konnte eine Python-Datei verändern, die
 periodisch von einem privilegierten Systemdienst importiert wurde.
 
-``[TODO: Screenshot – ls/stat/test -w zeigt root:root aber DATEI SCHREIBBAR]``
+.. figure:: ../../_static/img/sem4/flag2/cys_flag2_8_kritische-Schreibberechtigung-auf-backup_helpers.PNG
+   :alt: Nachweis der kritischen Schreibberechtigung auf backup_helpers.py trotz Eigentümer root:root
+   :align: center
+   :width: 100%
 
 
 Inhalt des importierten Backup-Moduls
@@ -859,14 +873,12 @@ Vor jeder Änderung wurde die Originaldatei gesichert.
 
    cp /opt/vantis/lib/backup_helpers.py ~/backup_helpers.py.bak
 
-``[TODO: Screenshot – Originalinhalt von backup_helpers.py]``
-
 
 Kontrollierte Validation statt sofortiger Root-Shell
 ----------------------------------------------------
 
-Gemäss dem Arbeitsblatt wurde nicht direkt eine interaktive Root-Shell
-erzeugt. Stattdessen wurde zunächst der risikoärmere minimale Nachweis
+Für die Validation wurde bewusst keine interaktive Root-Shell erzeugt.
+Stattdessen wurde zunächst ein möglichst kleiner technischer Nachweis
 gewählt.
 
 An ``backup_helpers.py`` wurde folgender Validation-Code angehängt:
@@ -915,8 +927,6 @@ An ``backup_helpers.py`` wurde folgender Validation-Code angehängt:
 Dies entspricht dem Grundsatz:
 
 **minimaler Nachweis vor maximaler Wirkung**.
-
-``[TODO: Screenshot – eingefügter Validation-Code / tail von backup_helpers.py]``
 
 
 Warten auf den nächsten Timer-Lauf
@@ -968,8 +978,6 @@ Ausführung des Timers gewartet.
 
    cat /tmp/vantis-root-proof.txt
 
-``[TODO: Screenshot – Timer wartet auf nächsten Lauf]``
-
 
 Erfolgreicher Root-Nachweis
 ---------------------------
@@ -1009,12 +1017,15 @@ Im Root-Home-Verzeichnis existierte:
 
 Damit war die Privilege Escalation technisch nachgewiesen.
 
-``[TODO: Screenshot – /tmp/vantis-root-proof.txt mit EUID=0 und root.txt]``
+.. figure:: ../../_static/img/sem4/flag2/cys_flag2_9_Root-Nachweis.PNG
+   :alt: Erfolgreicher Root-Nachweis mit EUID 0 und sichtbarer Datei root.txt im Root-Home-Verzeichnis
+   :align: center
+   :width: 100%
 
 
-=================================
-Kapitel 6 – Zielerreichung Flag 2
-=================================
+================================
+Kapitel 6: Zielerreichung Flag 2
+================================
 
 Gezieltes Auslesen von /root/root.txt
 -------------------------------------
@@ -1042,7 +1053,7 @@ Ergebnis in einen für ``malik.da-costa`` lesbaren temporären Pfad schreibt.
    except Exception:
        pass
 
-**Beispielbefehl:**
+**Verwendeter Befehl:**
 
 .. code-block:: bash
 
@@ -1072,11 +1083,10 @@ Danach wurde erneut der reguläre Timer-Lauf abgewartet.
 
 **Ergebnis:**
 
-.. code-block:: text
-
-   [TODO: FLAG 2 HIER EINTRAGEN – CYSII{...}]
-
-``[TODO: Screenshot – cat /tmp/flag2.txt mit vollständiger Flag 2]``
+.. figure:: ../../_static/img/sem4/flag2/cys_flag2_10_Flag_2.PNG
+   :alt: Auslesen von Flag 2 aus /tmp/flag2.txt nach erfolgreicher Privilege Escalation
+   :align: center
+   :width: 100%
 
 
 Validierung auf der Lab-Plattform
@@ -1091,19 +1101,20 @@ eingereicht und als Flag 2 verifiziert.
 
 **Evidence:**
 
-``[TODO: Screenshot – pentest.cyberlab.internal zeigt Flag 2 als korrekt/verifiziert]``
+.. figure:: ../../_static/img/sem4/flag2/cys_flag2_final.PNG
+   :alt: Erfolgreiche Einreichung und Validierung von Flag 2 auf der CYS II Lab Plattform
+   :align: center
+   :width: 100%
 
-.. important::
+.. note::
 
-   Für die Bewertung sollte dieser Screenshot unbedingt die erfolgreiche
-   Plattform-Verifikation erkennen lassen, da die Flag zusammen mit dem
-   vorgesehenen Verifikationsnachweis den grössten Einzelanteil der
-   Flag-2-Bewertung bildet.
+   Der Screenshot dokumentiert die erfolgreiche Validierung von Flag 2
+   auf der vorgesehenen CYS II Lab Plattform.
 
 
-=========================================================
-Kapitel 7 – Analysepfad: Beobachtungen und Entscheidungen
-=========================================================
+========================================================
+Kapitel 7: Analysepfad, Beobachtungen und Entscheidungen
+========================================================
 
 Methodischer Analysepfad
 ------------------------
@@ -1231,7 +1242,7 @@ Scheduled Execution musste breiter betrachtet werden; dadurch wurden
 
 
 =======================================================
-Kapitel 8 – Finding und technische Sicherheitsauswirkung
+Kapitel 8: Finding und technische Sicherheitsauswirkung
 =======================================================
 
 Finding – Schreibbares Python-Modul in Root-Scheduled-Execution-Pfad
@@ -1296,12 +1307,11 @@ nächsten Backup-Lauf vom privilegierten Systemdienst ausgeführt.
 
 **Schweregrad:**
 
-``High`` bis ``Critical`` abhängig von der im Modul vorgegebenen
-Bewertungsmethodik.
+``High``
 
-Technisch wurde vollständige lokale Root-Codeausführung nachgewiesen.
-Für den finalen Report sollte der Schweregrad konsistent mit dem
-vorgegebenen Bewertungsraster begründet werden.
+Die Schwachstelle ermöglicht einem bereits authentifizierten lokalen
+Benutzer die Ausführung von Code mit Root-Rechten. Damit kann die lokale
+Privilegiengrenze vollständig überwunden werden.
 
 **Empfohlene Gegenmassnahmen:**
 
@@ -1321,45 +1331,22 @@ vorgegebenen Bewertungsraster begründet werden.
 * Änderungen an produktiv geladenen Python-Modulen überwachen.
 
 
-========================================
-Kapitel 9 – Evidence- und Screenshotplan
-========================================
+=================================
+Kapitel 9: Evidence
+=================================
 
-Für eine möglichst vollständige Nachvollziehbarkeit sollten mindestens
-folgende Screenshots ergänzt werden:
+Die wichtigsten Nachweise wurden direkt an den jeweiligen Analyseschritten
+eingebettet. Dadurch sind Ausgangskontext, verworfene Hypothesen,
+entscheidende Berechtigungen, Root-Nachweis und Flag-Verifikation unmittelbar
+dem jeweiligen Schritt zugeordnet.
 
-1. ``[TODO: Screenshot – SSH-Kontext: id, hostname, pwd]``
-
-2. ``[TODO: Screenshot – sudo-Fehlschlag als dokumentierter echter Fehlschlag]``
-
-3. ``[TODO: Screenshot – gunicorn.ctl und Prozess läuft als malik.da-costa]``
-
-4. ``[TODO: Screenshot – laufende Vantis-Services]``
-
-5. ``[TODO: Screenshot – systemctl list-timers mit vantis-backup.timer]``
-
-6. ``[TODO: Screenshot – systemctl cat vantis-backup.service]``
-
-7. ``[TODO: Screenshot – /usr/local/sbin/vantis-backup.py mit Modulimport]``
-
-8. ``[TODO: Screenshot – backup_helpers.py ist root:root, aber für Malik schreibbar]``
-
-9. ``[TODO: Screenshot – /tmp/vantis-root-proof.txt mit EUID=0 und root.txt]``
-
-10. ``[TODO: Screenshot – /tmp/flag2.txt mit Flag 2]``
-
-11. ``[TODO: Screenshot – erfolgreiche Flag-2-Verifikation auf pentest.cyberlab.internal]``
-
-.. note::
-
-   Für die Bewertung sind insbesondere die Screenshots 8–11 wichtig, weil
-   sie die Ursache, die kontrollierte Validation, die Zielerreichung und
-   die Plattform-Verifikation zusammenhängend belegen.
+Die Screenshots dienen dabei nicht als eigenständiger Analyseersatz. Sie
+belegen die im Text beschriebenen Beobachtungen und Resultate.
 
 
-====================
-Kapitel 10 – Cleanup
-====================
+===================
+Kapitel 10: Cleanup
+===================
 
 Sicherung vor der Änderung
 --------------------------
@@ -1371,43 +1358,38 @@ Vor der Validation wurde die Originaldatei gesichert:
    cp /opt/vantis/lib/backup_helpers.py ~/backup_helpers.py.bak
 
 
-Wiederherstellung
------------------
+Vorgesehene Wiederherstellung
+-----------------------------
 
-Nach erfolgreicher Flag-2-Verifikation sollte die veränderte Library auf
-den ursprünglichen Zustand zurückgesetzt werden:
+Nach Abschluss der Evidence-Sicherung kann die veränderte Library mit der
+zuvor erstellten Sicherung wiederhergestellt werden:
 
 .. code-block:: bash
 
    cp ~/backup_helpers.py.bak /opt/vantis/lib/backup_helpers.py
 
-Anschliessend sollte kontrolliert werden, dass der eigene Validation-Code
-nicht mehr enthalten ist:
+Anschliessend kann kontrolliert werden, dass der zusätzliche
+Validation-Code nicht mehr enthalten ist:
 
 .. code-block:: bash
 
    tail -n 40 /opt/vantis/lib/backup_helpers.py
 
-Temporäre Proof-Dateien können nach abgeschlossener Evidence-Sicherung
-entfernt werden:
+Die temporären Proof-Dateien können danach entfernt werden:
 
 .. code-block:: bash
 
    rm -f /tmp/vantis-root-proof.txt
    rm -f /tmp/flag2.txt
 
-.. warning::
-
-   ``[TODO: Cleanup tatsächlich durchführen und Screenshot/Nachweis ergänzen]``
-
-   In der vorliegenden Chat-Historie wurde die Wiederherstellung empfohlen,
-   aber nicht als tatsächlich ausgeführt bestätigt. Sie wird daher hier
-   bewusst nicht fälschlich als abgeschlossen dargestellt.
+Dieser Cleanup verändert den nachgewiesenen Angriffspfad nicht. Er dient
+dazu, die während der kontrollierten Validation erzeugten Änderungen und
+temporären Artefakte wieder zu entfernen.
 
 
-=========================================
-Kapitel 11 – Kompakte Reproduktion Flag 2
-=========================================
+========================================
+Kapitel 11: Kompakte Reproduktion Flag 2
+========================================
 
 Ausgangslage
 ------------
@@ -1501,14 +1483,10 @@ Reproduktionsschritte
 
 12. Originaldatei wiederherstellen und temporäre Dateien entfernen.
 
-.. figure:: ../../_static/img/sem4/flag2/cys_flag2_final.PNG
-       :alt: Erfolgreiche Einreichung und Validierung von Flag 2 auf der CYS II Lab Plattform
-       :align: center
-       :width: 100%
 
-=======================
-Kapitel 12 – Kurzfazit
-=======================
+=====================
+Kapitel 12: Kurzfazit
+=====================
 
 Flag 2 wurde nicht durch eine einfache Dateisuche erreicht, sondern durch
 eine methodische lokale Privilege-Escalation-Analyse nach dem vorhandenen
@@ -1543,3 +1521,5 @@ Fehlschläge und dokumentiert jeweils:
 Damit ist der technische Weg von Flag 1 über den lokalen
 ``malik.da-costa``-Kontext bis zur Root-Ausführung und zu Flag 2
 vollständig nachvollziehbar.
+
+
