@@ -6,3 +6,5 @@ Cyber Security II
    :caption: Course Content:
 
    flag_01
+   flag_01_short
+   flag_02
