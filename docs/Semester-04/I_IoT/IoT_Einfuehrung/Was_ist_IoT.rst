@@ -36,6 +36,8 @@ Ich kann über die App ausserdem verfolgen, wo sich der Roboter befindet, wie la
    :align: center
    :width: 50%
 
+   Dreame-App meines Roboterstaubsaugers mit der erstellten Karte meiner Wohnung und dem aktuellen Reinigungsstatus.
+
 Persönliche Reflexion
 ---------------------
 
