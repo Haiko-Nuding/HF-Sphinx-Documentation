@@ -27,23 +27,22 @@ Auch die Station des Roboters ist in das System integriert. Sie kann unter ander
 
 Der Roboter kann mir ausserdem Benachrichtigungen auf mein Handy senden. Wenn er beispielsweise irgendwo stecken bleibt oder ein Problem feststellt, kann ich darüber informiert werden. Auch während eines normalen Reinigungsvorgangs kann er mir über Notifications mitteilen, dass er beispielsweise mit dem Staubsaugen fertig ist und nun mit dem Wischen beginnt. Dadurch bekomme ich Informationen über den aktuellen Zustand und den Fortschritt, ohne den Roboter selbst kontrollieren zu müssen.
 
-Eine für mich eher lustige Funktion ist die Remote Control. Über mein Handy kann ich den Roboter direkt fernsteuern und ihn beispielsweise manuell durch die Wohnung fahren lassen. Dadurch kann ich nicht nur seine automatischen Funktionen nutzen, sondern auch direkt mit ihm interagieren. Diese Funktion zeigt für mich ebenfalls gut, welchen zusätzlichen Nutzen die Verbindung mit dem Internet und der App schaffen kann.
+Eine für mich eher lustige Funktion ist die Remote Control. Über mein Handy kann ich den Roboter direkt fernsteuern und ihn beispielsweise manuell durch die Wohnung fahren lassen. Dadurch kann ich nicht nur seine automatischen Funktionen nutzen, sondern auch direkt mit ihm interagieren.
 
 Ich kann über die App ausserdem verfolgen, wo sich der Roboter befindet, wie lange er bereits arbeitet und welche Bereiche er gereinigt hat. Zusätzlich lassen sich automatische Abläufe definieren. Dadurch entsteht aus einem einfachen Staubsauger nicht nur ein Gerät, sondern ein vernetzter Dienst, der verschiedene Aufgaben selbstständig übernimmt.
 
-Das Beispiel zeigt für mich gut, weshalb die Daten der Sensoren für IoT so wichtig sind. Der Roboter kann seine Umgebung erkennen, die Informationen verarbeiten und daraus Entscheidungen für den nächsten Arbeitsschritt ableiten. Gleichzeitig können die Daten über die App dargestellt und für weitere Funktionen verwendet werden.
+.. figure:: ../../../_static/img/sem4/iot/iot_home-roboter-staubsauger.jpg
+   :alt: Screenshot der Dreame-App mit der erstellten Wohnungskarte und dem aktuellen Status des Roboterstaubsaugers
+   :align: center
+   :width: 50%
 
 Persönliche Reflexion
 ---------------------
 
-Vor dem IoT-Modul war mir bereits bewusst, dass es bei IoT um die Vernetzung von Geräten über das Internet oder ähnliche Netzwerke geht. Für mich war dabei besonders wichtig, dass Geräte dadurch Daten austauschen und verarbeiten können. Ich hatte auch bereits die Vorstellung, dass aus diesen Daten zusätzliche Dienstleistungen entstehen können.
+Vor dem IoT-Modul war mir bereits bewusst, dass es bei IoT um die Vernetzung von Geräten über das Internet oder ähnliche Netzwerke geht. Mir war auch bereits klar, dass durch die Verarbeitung der gesammelten Daten zusätzliche Funktionen und Dienstleistungen entstehen können.
 
-Durch das Modul wurde mir jedoch noch stärker bewusst, wie gross das Potenzial einer solchen Vernetzung sein kann. Besonders interessant fand ich den Gedanken, dass aus denselben Sensoren und Daten durch Kreativität unterschiedliche Dienstleistungen entstehen können. Ein Sensor liefert zunächst nur eine Information. Erst durch die Verarbeitung dieser Information und eine passende Idee entsteht daraus ein konkreter Nutzen für den Benutzer.
+Durch das Modul wurde mir aber nochmals bewusster, wie viel Potenzial in einer ursprünglichen IoT-Idee stecken kann. Mein Roboterstaubsauger ist für mich ein gutes Beispiel dafür. Die ersten Roboterstaubsauger waren im Vergleich zu heutigen Modellen noch relativ primitiv. Die Grundidee, dass ein Roboter selbstständig den Boden reinigt, war aber bereits vorhanden.
 
-Mein eigener Roboterstaubsauger ist für mich dafür ein gutes Beispiel. Früher hätte ich einen solchen Roboter hauptsächlich als automatischen Staubsauger betrachtet. Durch die verschiedenen Sensoren, die Kartierung, die App, die Benachrichtigungen, die Remote Control und die Station entsteht aber ein viel umfangreicheres System. Der Roboter kann nicht nur saugen und wischen, sondern seine Umgebung erkennen, bestimmte Bereiche unterscheiden, automatisch Entscheidungen treffen, seinen Zustand an die App weitergeben und mich über wichtige Ereignisse informieren.
+Über die Zeit wurde dieses Konzept immer weiterentwickelt. Probleme und Einschränkungen früherer Modelle wurden nach und nach gelöst und neue Funktionen ergänzt. Heute kann mein Roboter beispielsweise die Wohnung kartieren, Teppiche erkennen, saugen und wischen und sich danach selbstständig an seiner Station entleeren. Die Station kümmert sich zusätzlich um Wasser und die Reinigung der Mopps. Über die App kann ich das gesamte System überwachen und steuern.
 
-Besonders interessant finde ich auch, wie sich aus einem ursprünglichen Problem weitere Lösungen entwickeln können. Ein Roboter, dessen Staubbehälter irgendwann voll ist, könnte beispielsweise einfach eine Meldung anzeigen. Durch die zusätzliche Station wird dieses Problem weiter gelöst, indem der Staub automatisch abgesaugt und gesammelt wird. Ähnlich funktioniert es beim Wischen, wo die Station unter anderem die Reinigung und Pflege der Mopps übernimmt.
-
-Als Applikationsentwickler finde ich dabei vor allem die Verbindung zwischen Software, Daten und physischer Hardware interessant. Die Sensoren alleine würden noch keinen solchen Dienst ermöglichen. Erst durch die Software, welche die Daten verarbeitet und daraus Aktionen und Benutzerfunktionen macht, entsteht der eigentliche Mehrwert.
-
-Aus dem Modul nehme ich deshalb besonders den Gedanken mit, dass eine IoT-Idee ein viel grösseres Potenzial entwickeln kann, als es am Anfang vielleicht den Anschein macht. Auch die im Modul vermittelte Philosophie „Fail fast, learn fast“ finde ich interessant. Eine Idee muss nicht von Anfang an perfekt sein. Durch Ausprobieren, Fehler und das Weiterentwickeln einer Lösung können aus einer einfachen Grundidee weitere Funktionen und Dienstleistungen entstehen.
+Genau diese Entwicklung finde ich interessant. Aus einer relativ einfachen Grundidee ist über mehrere Generationen ein umfangreiches System mit vielen zusätzlichen Dienstleistungen entstanden. In diesem Zusammenhang gefällt mir auch die im Modul erwähnte Philosophie „Fail fast, learn fast“. Eine erste Lösung muss noch nicht perfekt sein. Man kann Erfahrungen damit sammeln, Probleme erkennen und die Idee immer weiter verbessern. Mein heutiger Roboter zeigt für mich sehr gut, was aus einer solchen kontinuierlichen Weiterentwicklung entstehen kann.
