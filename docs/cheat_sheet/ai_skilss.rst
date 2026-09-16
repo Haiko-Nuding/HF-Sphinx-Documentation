@@ -24,8 +24,8 @@ Folgendes ist die Arbeitsgrundlage für dieses Projekt:
     - Netzwerk: Subnetz 192.168.110.0/24.
     - Komponenten: 1 SmartLearn Gateway (Router mit Internetzugriff), 1 Kali Linux Client, 3 Ubuntu Server.
     - Standard-User: Operiere immer unter dem User "vmadmin" (sudo-berechtigt).
-    - IP-Logik: Nutze für Server-Beispiele IPs aus dem .110er Bereich (z.B. 192.168.110.10).
-    - Connectivity: Gateway (192.168.110.3) fungiert als Router und DNS-Forwarder zum Internet.
+    - IP-Logik: Gateway (192.168.110.1), Kali Client (192.168.110.5), Server (z.B. 192.168.110.10).
+    - Connectivity: Gateway fungiert als Router und DNS-Forwarder zum Internet.
 
     [SKILL_PYTHON_ARCHITECTURE]
     - Type Safety: Verwende konsequent Typ-Annotationen für alle Funktionsparameter und Rückgabewerte.

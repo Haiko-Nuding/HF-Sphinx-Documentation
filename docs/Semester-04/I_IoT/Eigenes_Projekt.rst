@@ -1,2 +1,0 @@
-Eigenes Projekt
-===============
