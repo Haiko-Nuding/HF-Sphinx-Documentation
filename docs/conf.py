@@ -18,6 +18,7 @@ extensions = [
     'sphinxcontrib.plantuml',  # PlantUML integration
     'sphinxcontrib.spelling',
     'rst2pdf.pdfbuilder',
+    'sphinxcontrib.youtube',
 ]
 
 templates_path = ['_templates']
