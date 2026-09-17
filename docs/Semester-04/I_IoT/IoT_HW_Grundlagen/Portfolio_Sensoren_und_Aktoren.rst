@@ -2,171 +2,147 @@ Portfolio Sensoren und Aktoren
 ==============================
 
 .. important::
-   Sie haben Sich mit den Sensoren und Aktoren der Schule auseinander gesetzt (Eintrag was es für Sensoren und Aktoren in der Schule zum Ausleihen hat.)
-   Eintrag in Portfolio. Inkl Foto, dass Sie sich damit beschäftigt haben.
+   Sie kennen verschiedene Sensoren und Aktoren. Was ist der Unterschied? Sie können dies in eigenen Worten erläutern.
 
 
 Sensoren und Aktoren
 --------------------
 
-Bei einem IoT-System muss die physische Welt irgendwie mit der digitalen Welt verbunden werden. Dafür spielen **Sensoren und Aktoren** eine wichtige Rolle.
+Sensoren und Aktoren bilden für mich die Verbindung zwischen der **physischen und der digitalen Welt**. Der Unterschied liegt hauptsächlich darin, in welche Richtung Informationen fliessen.
 
-Ein **Sensor** erfasst eine physikalische Grösse oder einen Zustand aus seiner Umgebung und wandelt diesen in einen Wert um, der von einem digitalen System verarbeitet werden kann. Beispiele dafür sind Temperatur, Luftfeuchtigkeit, Helligkeit, Bewegung oder Abstand.
+Ein **Sensor** nimmt etwas aus seiner Umgebung wahr und wandelt diese physikalische Grösse in einen Wert um, den ein digitales System weiterverarbeiten kann.
 
-Ein **Aktor** funktioniert in die andere Richtung. Er erhält ein elektrisches Signal und erzeugt daraus eine physische Aktion, beispielsweise Licht, Bewegung oder Schall.
+Ein **Aktor** funktioniert in die andere Richtung. Er erhält ein elektrisches Signal von einem System und setzt dieses wieder in eine physische Aktion um.
 
-Vereinfacht kann ich mir den Unterschied so merken:
+Ich kann mir den Unterschied deshalb einfach so merken:
 
 ``Sensor: reale Welt → Daten``
 
 ``Aktor: Daten / Signal → reale Welt``
 
 .. note::
-   Im Unterricht wurde dazu der Vergleich mit dem Menschen verwendet. **Augen und Ohren** funktionieren ähnlich wie Sensoren, weil sie Informationen aus unserer Umgebung aufnehmen. **Muskeln oder der Mund beim Sprechen** entsprechen eher Aktoren, weil damit eine Aktion ausgeführt wird.
+   Ein guter Vergleich aus dem Unterricht ist der menschliche Körper. Unsere **Augen, Ohren und anderen Sinne** funktionieren ähnlich wie Sensoren, da sie Informationen aus der Umgebung aufnehmen. Unsere **Muskeln** oder der Mund beim Sprechen funktionieren eher wie Aktoren, da damit eine Aktion ausgeführt wird.
 
 
-Sensoren und Aktoren der Schule
--------------------------------
+Sensoren
+--------
 
-In der Schule steht eine grössere Sammlung unterschiedlicher Sensoren, Aktoren und weiterer Module zum Ausleihen zur Verfügung. Je nach Projekt können damit unterschiedliche Informationen erfasst oder Aktionen und Ausgaben realisiert werden.
+Sensoren können sehr unterschiedliche physikalische Grössen erfassen. Je nachdem, was ein System über seine Umgebung wissen muss, wird ein anderer Sensortyp benötigt.
 
-Auf der Übersicht der Schule habe ich unter anderem folgende Komponenten gesehen:
+Beispiele dafür sind:
 
 .. list-table::
    :header-rows: 1
    :widths: 35 65
 
-   * - Komponente
-     - Aufgabe / Verwendung
-   * - ``DHT11``
-     - Erfasst Temperatur und Luftfeuchtigkeit.
-   * - ``APDS-9930``
-     - Erfasst unter anderem Umgebungslicht beziehungsweise Annäherung.
-   * - Tilt Sensor
-     - Kann eine Neigung beziehungsweise Lageänderung erkennen.
-   * - Joystick-Modul
-     - Erfasst die Bewegung beziehungsweise Position eines Joysticks.
-   * - Rotary Encoder
-     - Erfasst Drehbewegungen und kann beispielsweise zur Bedienung verwendet werden.
-   * - Servo-Motor
-     - Führt eine mechanische Bewegung beziehungsweise Positionierung aus.
-   * - ``I2C 8×8 LED Dot Matrix``
-     - Kann Informationen mit einzelnen LEDs darstellen.
-   * - ``0802 LCD Module``
-     - Kann kurze Texte, Zahlen oder Messwerte anzeigen.
+   * - Sensortyp
+     - Was wird erfasst?
+   * - Temperatursensor
+     - Temperatur
+   * - Feuchtigkeitssensor
+     - Luft- oder Materialfeuchtigkeit
+   * - Drucksensor
+     - Luft- oder anderer physikalischer Druck
+   * - Bewegungsmelder
+     - Bewegung in der Umgebung
+   * - Näherungssensor
+     - Ob sich ein Objekt in der Nähe befindet
+   * - Helligkeitssensor
+     - Licht beziehungsweise Helligkeit
+   * - Beschleunigungssensor
+     - Beschleunigung und Bewegungsänderungen
+   * - Gas-Sensor
+     - Bestimmte Gase beziehungsweise Veränderungen der Luft
 
-Damit stehen nicht nur Sensoren zur Verfügung. Mit Servos, LEDs, Displays und weiteren Ausgabemodulen können Daten auch wieder in eine sichtbare oder physische Ausgabe umgesetzt werden.
+Wichtig ist dabei, dass ein Sensor die physikalische Grösse nicht einfach nur erkennt, sondern daraus einen **maschinenlesbaren Wert** erzeugt, mit dem anschliessend weitergearbeitet werden kann.
 
-
-Meine Auswahl aus der Sammlung
-------------------------------
-
-Nachdem ich mir einen Überblick über die vorhandenen Komponenten verschafft hatte, habe ich drei davon selbst aus der Sammlung genommen und genauer angeschaut.
-
-.. figure:: ../../../_static/img/sem4/iot/iot_schule-meine-auswahl-sensoren-aktoren.jpeg
-   :alt: Meine Auswahl von drei Komponenten aus der IoT-Sammlung der Schule
-   :align: center
-   :width: 75%
-
-   **Meine Auswahl aus der IoT-Sammlung:** Ein Joystick-Modul, eine ``I2C 8×8 LED Dot Matrix`` und ein ``0802 LCD Module``.
-
-Bei meiner Auswahl fand ich interessant, dass die drei Module unterschiedliche Aufgaben übernehmen. Der Joystick dient als **Eingabe**, während die LED-Matrix und das LCD Informationen wieder **sichtbar ausgeben** können.
+Im Unterricht wurde auch angesprochen, dass bei der Auswahl eines Sensors besonders **Genauigkeit und Zuverlässigkeit** wichtig sind. Ein günstiger Sensor reicht möglicherweise für ein einfaches Hobbyprojekt aus, während bei einer kritischen Anwendung wesentlich höhere Anforderungen an die Messwerte gestellt werden.
 
 
-Joystick-Modul
-~~~~~~~~~~~~~~
+Umgebungssensoren aus dem Unterricht
+------------------------------------
 
-Als Eingabekomponente habe ich mir ein **Joystick-Modul** angeschaut. Durch das Bewegen des Joysticks wird eine physische Eingabe in elektrische Werte umgesetzt, die anschliessend von einem Mikrocontroller verarbeitet werden können.
-
-``Joystick bewegen → Position erfassen → Mikrocontroller → Aktion``
-
-Damit könnte beispielsweise ein Servo gesteuert, durch ein Menü navigiert oder die Richtung eines anderen Gerätes bestimmt werden.
+Im Modul arbeiten wir unter anderem mit den Umgebungssensoren ``BMP280``, ``BME280`` und ``BME680``. An diesen drei Sensoren sieht man gut, dass ähnlich aussehende Bauteile unterschiedliche Mengen an Informationen über ihre Umgebung erfassen können.
 
 .. list-table::
-   :widths: 45 55
+   :header-rows: 1
+   :widths: 25 50 25
 
-   * - .. figure:: ../../../_static/img/sem4/iot/iot_schule-katalog-joystick.jpeg
-          :alt: Joystick-Modul in der Übersicht der ausleihbaren Sensoren und Aktoren der Schule
-          :align: center
-          :width: 90%
+   * - Sensor
+     - Messgrössen
+     - Schnittstelle
+   * - ``BMP280``
+     - Temperatur und Luftdruck
+     - ``I2C`` / ``SPI``
+   * - ``BME280``
+     - Temperatur, Luftdruck und relative Luftfeuchtigkeit
+     - ``I2C`` auf unserem Breakout
+   * - ``BME680``
+     - Temperatur, Luftdruck, Luftfeuchtigkeit und Luftgüte
+     - ``I2C`` / ``SPI``
 
-          **Übersicht:** Das Joystick-Modul in der Sammlung der Schule.
+Beim ``BMP280`` fand ich interessant, wie genau der Luftdruck gemessen werden kann. Laut Unterricht erreicht der Sensor ungefähr ``±1 Pa`` Genauigkeit. Dadurch können sogar sehr kleine Höhenunterschiede erkannt werden.
 
-     - .. figure:: ../../../_static/img/sem4/iot/iot_schule-joystick-modul.jpeg
-          :alt: Von mir untersuchtes Joystick-Modul aus der IoT-Sammlung der Schule
-          :align: center
-          :width: 90%
+Der ``BME280`` erweitert diese Messmöglichkeiten zusätzlich um die **relative Luftfeuchtigkeit**. Das ``E`` in der Bezeichnung steht dabei für *Environmental*.
 
-          **Praxis:** Das Joystick-Modul, das ich mir selbst genauer angeschaut habe.
+Eine Besonderheit des ``BME680`` ist die Messung der **Luftgüte**. Dafür besitzt der Sensor eine kleine interne Heizung. Diese Heizung kann wiederum die Temperaturmessung beeinflussen. Werden viele Messungen in kurzer Zeit durchgeführt, kann der gemessene Temperaturwert laut Unterricht um bis zu ungefähr ``1.5 °C`` höher liegen.
 
-
-I2C 8×8 LED Dot Matrix
-~~~~~~~~~~~~~~~~~~~~~~
-
-Als Ausgabekomponente habe ich mir eine **I2C 8×8 LED Dot Matrix** angeschaut. Sie besteht aus **8 × 8 und damit 64 einzelnen LEDs**. Durch das gezielte Ansteuern der LEDs können beispielsweise Zahlen, Buchstaben, Symbole oder einfache Animationen dargestellt werden.
-
-``Daten → Mikrocontroller → LED-Matrix → sichtbare Ausgabe``
-
-.. list-table::
-   :widths: 50 50
-
-   * - .. figure:: ../../../_static/img/sem4/iot/iot_schule-katalog-led-dot-matrix.jpeg
-          :alt: I2C 8x8 LED Dot Matrix in der Übersicht der ausleihbaren Module der Schule
-          :align: center
-          :width: 90%
-
-          **Übersicht:** Die ``I2C 8×8 LED Dot Matrix`` aus der Sammlung der Schule.
-
-     - .. figure:: ../../../_static/img/sem4/iot/iot_schule-led-dot-matrix-vorderseite.jpeg
-          :alt: Vorderseite der von mir untersuchten I2C 8x8 LED Dot Matrix mit 64 LEDs
-          :align: center
-          :width: 90%
-
-          **Praxis:** Die Vorderseite des Moduls mit den 64 einzelnen LED-Punkten.
-
-Auf dem Modul sind unter anderem die Anschlüsse ``SCL`` und ``SDA`` vorhanden. Diese gehören zur ``I2C``-Kommunikation. Die Matrix kann dadurch als vollständiges Modul von einem Mikrocontroller angesteuert werden.
-
-In einem IoT-Projekt könnte damit beispielsweise ein Zustand direkt am Gerät durch ein Symbol oder eine Zahl angezeigt werden.
+.. tip::
+   Gerade der ``BME680`` zeigt für mich, dass man Sensorwerte nicht einfach blind übernehmen sollte. Es ist auch wichtig zu verstehen, **wie ein Sensor misst und wodurch seine Messung beeinflusst werden kann**.
 
 
-0802 LCD Module
-~~~~~~~~~~~~~~~
+Aktoren
+-------
 
-Als dritte Komponente habe ich mir ein ``0802 LCD Module`` angeschaut. Auch dieses Modul dient als **Ausgabe**, stellt Informationen aber anders dar als die LED-Matrix.
+Aktoren machen im Prinzip das Gegenteil eines Sensors. Sie messen keine Eigenschaft der Umgebung, sondern **führen eine Aktion aus**.
 
-Die Bezeichnung ``0802`` beschreibt den Aufbau des Displays: Es können **2 Zeilen mit jeweils 8 Zeichen** dargestellt werden. Dadurch eignet es sich für kurze Texte, Zahlen, Messwerte oder Statusinformationen.
-
-``Sensor → Mikrocontroller → LCD → Messwert anzeigen``
-
-Ein Temperatursensor könnte beispielsweise einen Messwert liefern und ein ``ESP32`` diesen anschliessend direkt auf dem Display anzeigen.
+Beispiele für Aktoren sind:
 
 .. list-table::
-   :widths: 45 55
+   :header-rows: 1
+   :widths: 35 65
 
-   * - .. figure:: ../../../_static/img/sem4/iot/iot_schule-katalog-0802-lcd-module.jpeg
-          :alt: 0802 LCD Module in der Übersicht der ausleihbaren Module der Schule
-          :align: center
-          :width: 90%
+   * - Aktor
+     - Physische Ausgabe
+   * - LED / Lampe
+     - Licht
+   * - Motor
+     - Bewegung
+   * - Servo
+     - Gezielte mechanische Bewegung
+   * - Lautsprecher / Glocke
+     - Schall
+   * - Elektromagnet
+     - Magnetische beziehungsweise mechanische Wirkung
 
-          **Übersicht:** Das ``0802 LCD Module`` in der Sammlung der Schule.
+Im Unterricht arbeiten wir hauptsächlich mit **LEDs** als Aktoren. Das ist praktisch, weil man sofort sehen kann, ob eine vom System ausgelöste Aktion funktioniert.
 
-     - .. figure:: ../../../_static/img/sem4/iot/iot_schule-0802-lcd-module.jpeg
-          :alt: Von mir untersuchtes 0802 LCD Module aus der IoT-Sammlung der Schule
-          :align: center
-          :width: 90%
 
-          **Praxis:** Das ``0802 LCD Module``, das ich mir selbst genauer angeschaut habe.
+Zusammenspiel in einem IoT-System
+---------------------------------
 
-Im Vergleich zur ``I2C 8×8 LED Dot Matrix`` eignet sich das LCD besser für konkrete **Zahlen oder kurze Texte**. Die LED-Matrix eignet sich dagegen besser für einfache Symbole, Muster oder kleine Animationen.
+Besonders interessant wird es, wenn Sensor und Aktor miteinander kombiniert werden.
+
+Ein Sensor könnte beispielsweise die Temperatur messen. Ein ``ESP32`` verarbeitet den Messwert und entscheidet anhand einer programmierten Logik, ob ein Aktor eingeschaltet werden soll.
+
+``Temperatursensor → ESP32 → Logik → Aktor``
+
+Ein einfaches Beispiel wäre:
+
+``Temperatur zu hoch → Lüfter einschalten``
+
+Der Sensor liefert dabei nur die Information. Die Verarbeitung entscheidet, **was mit dieser Information passieren soll**, und der Aktor setzt die Entscheidung schliesslich in der physischen Welt um.
 
 
 Was ich daraus mitnehme
 -----------------------
 
-Durch das direkte Anschauen der Komponenten ist für mich der Unterschied zwischen **Eingabe und Ausgabe** beziehungsweise **Sensoren und Aktoren** anschaulicher geworden.
+Für mich ist der wichtigste Unterschied zwischen Sensor und Aktor die **Richtung zwischen physischer und digitaler Welt**.
 
-Bei meinen drei ausgewählten Modulen konnte ich unterschiedliche Aufgaben nachvollziehen: Beim **Joystick** wird eine physische Bewegung zu einem Wert, den ein Mikrocontroller verarbeiten kann. Das ``0802 LCD Module`` kann konkrete Zahlen oder kurze Texte darstellen, während die ``I2C 8×8 LED Dot Matrix`` Informationen beispielsweise über Punkte oder Symbole sichtbar machen kann.
+Ein Sensor macht einen Zustand der realen Welt für Software messbar. Ein Aktor ermöglicht es der Software dagegen, wieder etwas in der realen Welt zu bewirken.
 
-Für mich zeigt die Sammlung der Schule gut, wie sich aus verschiedenen Bausteinen später ein vollständiges System zusammensetzen lässt:
+``Sensor → erfassen``
 
-``Sensor / Eingabe → Verarbeitung → Aktor / Ausgabe``
+``Aktor → ausführen``
+
+Erst durch die Verarbeitung dazwischen kann daraus eine automatische Funktion entstehen. Genau dieses Zusammenspiel ist für IoT interessant: Ein System kann seine Umgebung **wahrnehmen, die Daten verarbeiten und anschliessend darauf reagieren**.
