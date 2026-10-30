@@ -26,7 +26,7 @@ erfolgreich validiert.
 
    Der ESP32 ``haiko`` wird im ESPHome Device Builder als online angezeigt.
 
-.. figure:: ../../../_static/img/sem4/iot/HA_ESPHome_Validierung.png
+.. figure:: ../../../_static/img/sem4/iot/HA_ESPHome_Validierung.PNG
    :alt: Erfolgreiche Validierung der ESPHome-Konfiguration für haiko
    :align: center
    :width: 75%
